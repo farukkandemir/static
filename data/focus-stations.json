@@ -1,0 +1,6225 @@
+[
+ {
+  "uuid": "960c7c81-0601-11e8-ae97-52543be04c81",
+  "name": "SomaFM Secret Agent (128k MP3)",
+  "streamUrl": "https://ice6.somafm.com/secretagent-128-mp3",
+  "homepage": "",
+  "favicon": "https://somafm.com/img3/secretagent-400.jpg",
+  "tags": [
+   "ambient",
+   "downtempo",
+   "lounge"
+  ],
+  "countryCode": "",
+  "country": "The United States Of America",
+  "state": "",
+  "language": "",
+  "votes": 35888,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 138,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "ambient",
+   "jazz"
+  ]
+ },
+ {
+  "uuid": "ffd351fe-219e-4c6e-b14f-9c2e02fbe45e",
+  "name": "Klassik Radio - Live",
+  "streamUrl": "https://live.streams.klassikradio.de/klassikradio-deutschland/stream/mp3",
+  "homepage": "",
+  "favicon": "https://klassikradio.de/img/ms-mediumtile.png",
+  "tags": [
+   "classical"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 3332,
+  "codec": "MP3",
+  "bitrate": 0,
+  "hls": false,
+  "clickCount": 37,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "960d3f6f-0601-11e8-ae97-52543be04c81",
+  "name": "SomaFM Space Station Soma (128k AAC)",
+  "streamUrl": "https://ice5.somafm.com/spacestation-128-aac",
+  "homepage": "",
+  "favicon": "https://somafm.com/img3/spacestation-400.png",
+  "tags": [
+   "ambient"
+  ],
+  "countryCode": "",
+  "country": "The United States Of America",
+  "state": "",
+  "language": "",
+  "votes": 24261,
+  "codec": "AAC",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 30,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "3f4be720-c996-439f-be3b-cce594ea2852",
+  "name": "0R - MUSIC FOR SLEEP || Sleep, Relax, Calm, Meditation, Nat…",
+  "streamUrl": "https://0nlineradio.radioho.st/classical-classical-music-for-sleep?ref=radio-browser26",
+  "homepage": "",
+  "favicon": "https://i.ibb.co/whsdTsct/MUSIC-FOR-SLEEP.png",
+  "tags": [
+   "sleep"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 191,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 30,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "518d02e0-9301-4358-bf25-4ed57372fd2d",
+  "name": "Instrumental Jazz",
+  "streamUrl": "https://jfm1.hostingradio.ru:14536/ijstream.mp3",
+  "homepage": "",
+  "favicon": "https://radiojazzfm.ru/favicons/apple-touch-icon.png",
+  "tags": [
+   "instrumental"
+  ],
+  "countryCode": "",
+  "country": "The Russian Federation",
+  "state": "",
+  "language": "",
+  "votes": 6127,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 29,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": []
+ },
+ {
+  "uuid": "960eb2e9-0601-11e8-ae97-52543be04c81",
+  "name": "SomaFM Drone Zone (128k MP3)",
+  "streamUrl": "https://ice4.somafm.com/dronezone-128-mp3",
+  "homepage": "",
+  "favicon": "https://somafm.com/img3/dronezone-400.jpg",
+  "tags": [
+   "ambient",
+   "drone",
+   "chillout"
+  ],
+  "countryCode": "",
+  "country": "The United States Of America",
+  "state": "",
+  "language": "",
+  "votes": 3792,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 24,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "ambient",
+   "jazz"
+  ]
+ },
+ {
+  "uuid": "49902d2d-672d-4130-b42a-90592d0460c5",
+  "name": "0R - LO-FI || LoFi, Chill, Study, Hip Hop, Relax, Backgroun…",
+  "streamUrl": "https://0nlineradio.radioho.st/0r-lo-fi?ref=radio-browser26",
+  "homepage": "",
+  "favicon": "https://i.ibb.co/v6hT16qV/LOFI.png",
+  "tags": [
+   "lo-fi",
+   "lofi",
+   "study"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 100,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 23,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "lofi"
+  ]
+ },
+ {
+  "uuid": "4f30d107-82f3-4e4e-99e4-44e05adcb2e9",
+  "name": "0R - PIANO JAZZ LOUNGE || Jazz, Piano, Lounge, Smooth, Chil…",
+  "streamUrl": "https://0nlineradio.radioho.st/lounge-piano-jazz-bar?ref=radio-browser26",
+  "homepage": "",
+  "favicon": "https://i.ibb.co/MkhwYrRM/Piano-Jazz-Lounge.png",
+  "tags": [
+   "piano",
+   "smooth jazz"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 232,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 21,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "piano",
+   "jazz"
+  ]
+ },
+ {
+  "uuid": "b828a184-3488-48f2-ab60-38a5e435a9fe",
+  "name": "0R - NATURE RELAX || Nature Sounds, Sleep, Relax, Calm, For…",
+  "streamUrl": "https://0nlineradio.radioho.st/lounge-nature-sounds?ref=radio-browser26",
+  "homepage": "",
+  "favicon": "https://i.ibb.co/NgtLbFs6/Nature-Relax-Sound.png",
+  "tags": [
+   "sleep"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 185,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 21,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "89b63085-db05-4c2b-86a4-ee2f17ed2018",
+  "name": "# 100 GREATEST CLASSICAL MUSIC",
+  "streamUrl": "https://az1.mediacp.eu/listen/100greatestclassicalmusic/radio.mp3",
+  "homepage": "",
+  "favicon": "https://static.wixstatic.com/media/f361b3_f977feb1ff14484cb53e8bf0fbff1801~mv2.jpg",
+  "tags": [
+   "piano"
+  ],
+  "countryCode": "",
+  "country": "Canada",
+  "state": "",
+  "language": "",
+  "votes": 854,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 20,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "5b59ea80-6ce9-11e8-b15b-52543be04c81",
+  "name": "SomaFM DEF CON Radio (128k AAC)",
+  "streamUrl": "https://ice6.somafm.com/defcon-128-aac",
+  "homepage": "",
+  "favicon": "https://somafm.com/img3/defcon400.png",
+  "tags": [
+   "ambient"
+  ],
+  "countryCode": "",
+  "country": "The United States Of America",
+  "state": "",
+  "language": "",
+  "votes": 1573,
+  "codec": "AAC",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 14,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "8f14d1fa-31f6-4fd7-9dcb-8ed0e3bf3d18",
+  "name": "0R - HOTEL LOUNGE || Chill, Jazz, Smooth, Relax, Soft Music…",
+  "streamUrl": "https://0nlineradio.radioho.st/lounge-hotel-lounge?ref=radio-browser26",
+  "homepage": "",
+  "favicon": "https://i.ibb.co/GLkKPMc/Hotel-Lounge.png",
+  "tags": [
+   "instrumental"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 192,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 12,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": []
+ },
+ {
+  "uuid": "03f081d4-4b70-46b2-b353-b47b502495b2",
+  "name": "0R - SPA LOUNGE || Relax, Spa, Calm, Meditation, Nature, Am…",
+  "streamUrl": "https://0nlineradio.radioho.st/lounge-spa-lounge?ref=radio-browser26",
+  "homepage": "",
+  "favicon": "https://i.ibb.co/nMy1KKtY/SPA-LOUNGE.png",
+  "tags": [
+   "meditation",
+   "sleep"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 133,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 12,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "e6fa9a8a-02a8-11e9-a1be-52543be04c81",
+  "name": "SomaFM Groove Salad Classic (128k MP3)",
+  "streamUrl": "https://ice2.somafm.com/gsclassic-128-mp3",
+  "homepage": "",
+  "favicon": "https://somafm.com/img3/gsclassic400.jpg",
+  "tags": [
+   "ambient",
+   "downtempo"
+  ],
+  "countryCode": "",
+  "country": "The United States Of America",
+  "state": "",
+  "language": "",
+  "votes": 1344,
+  "codec": "MP3",
+  "bitrate": 160,
+  "hls": false,
+  "clickCount": 11,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "ambient",
+   "jazz"
+  ]
+ },
+ {
+  "uuid": "43d3984d-fd02-454e-b7a3-4d7ea82cea11",
+  "name": "0R - ROMANTIC PIANO || Piano, Romantic, Soft, Classical, Ba…",
+  "streamUrl": "https://0nlineradio.radioho.st/piano-romantic-piano?ref=radio-browser26",
+  "homepage": "",
+  "favicon": "https://i.ibb.co/1tW9hJhd/Romantic-Piano.png",
+  "tags": [
+   "piano"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 115,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 11,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "4c0118e7-97d9-4657-9bb8-427758a4aa85",
+  "name": "Epic Lounge - SLEEP & MEDITATION",
+  "streamUrl": "https://stream.epic-lounge.com/sleep-meditation?ref=radiobrowser",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "ambient",
+   "meditation",
+   "sleep",
+   "chillout"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 1824,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 10,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "ambient",
+   "jazz"
+  ]
+ },
+ {
+  "uuid": "a5213a32-d614-47bc-8d52-70a2b6eed8e1",
+  "name": "Box Lofi Radio",
+  "streamUrl": "https://stream.zeno.fm/tabzverz0fctv",
+  "homepage": "",
+  "favicon": "https://zeno.fm/_ipx/_/https://images.zeno.fm/iAxt21RULW18xMxbT74dT1wVoefziySqQ_UKAI7asFk/rs:fill:288:288/g:ce:0:0/aHR0cHM6Ly9wcm94eS56ZW5vLmZtL2NvbnRlbnQvc3RhdGlvbnMvZTFkYTZkZDUtZDA2ZS00ODA5LWJjMDQtNGNlODEzOGEwMzYyL2ltYWdlLz91PTE3MjU3MjAxODEwMDA.webp",
+  "tags": [
+   "lofi",
+   "study"
+  ],
+  "countryCode": "",
+  "country": "Ghana",
+  "state": "",
+  "language": "",
+  "votes": 88,
+  "codec": "MP3",
+  "bitrate": 0,
+  "hls": false,
+  "clickCount": 10,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "lofi"
+  ]
+ },
+ {
+  "uuid": "a5331ae6-1196-46c4-b8d6-6a013018bbfe",
+  "name": "Cinemix",
+  "streamUrl": "https://kathy.torontocast.com:1825/stream",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "instrumental",
+   "soundtrack",
+   "film music"
+  ],
+  "countryCode": "",
+  "country": "France",
+  "state": "",
+  "language": "",
+  "votes": 1054,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 9,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": []
+ },
+ {
+  "uuid": "e58589d8-a286-4d40-81b8-d5b345d100be",
+  "name": "Chinese Classical Music (Mp3 stream)",
+  "streamUrl": "https://radio.chinesemusicworld.com/chinesemusic.mp3",
+  "homepage": "",
+  "favicon": "https://mytunein.com/images/logos/chineseclassicalmusiconlineradio.jpg",
+  "tags": [
+   "instrumental"
+  ],
+  "countryCode": "",
+  "country": "China",
+  "state": "",
+  "language": "",
+  "votes": 285,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 9,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": []
+ },
+ {
+  "uuid": "8e0f1ea7-495d-495e-9f49-1a320e2bc5d1",
+  "name": "0R - MOZART - CLASSICAL || Orchestra, Piano, Strings, Chamb…",
+  "streamUrl": "https://0nlineradio.radioho.st/0r-mozart?ref=radio-browser26",
+  "homepage": "",
+  "favicon": "https://i.ibb.co/Z67qTCXr/Mozart-KL.png",
+  "tags": [
+   "piano"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 104,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 9,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "1665ae4c-74dc-44f0-bd0a-7a0d0291aa8c",
+  "name": "EPIC CLASSICAL - Classical Music For Sleep",
+  "streamUrl": "https://stream.epic-classical.com/classical-music-for-sleep",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "ambient",
+   "chillout"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 2012,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 8,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "ambient",
+   "jazz"
+  ]
+ },
+ {
+  "uuid": "750cbe31-150e-4cd2-8ec5-a6a8a9a7c8b2",
+  "name": "EPIC CLASSICAL - Classical Piano",
+  "streamUrl": "https://stream.epic-classical.com/classical-piano",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "ambient",
+   "piano",
+   "new age",
+   "chillout"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 577,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 8,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "ambient",
+   "piano",
+   "jazz"
+  ]
+ },
+ {
+  "uuid": "79839c1c-bfb8-40a4-aed7-f31191cbd015",
+  "name": "0R - PIANO CLASSICAL || Klassik, Solopiano, Elegant, Relax,…",
+  "streamUrl": "https://0nlineradio.radioho.st/classical-classical-piano?ref=radio-browser26",
+  "homepage": "",
+  "favicon": "https://i.ibb.co/Tq7d6MMp/PIANO-only.png",
+  "tags": [
+   "piano"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 73,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 8,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "eb987d1a-ef9c-47dd-a70f-f35a34b11313",
+  "name": "Epic Lounge - PIANO & JAZZ BAR",
+  "streamUrl": "https://stream.epic-lounge.com/piano-jazz-bar?ref=radiobrowser",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "piano",
+   "smooth jazz",
+   "lounge"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 605,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 7,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "piano",
+   "jazz"
+  ]
+ },
+ {
+  "uuid": "dd514cb7-fca6-427a-add8-bcf5892b6c3d",
+  "name": "0R - BACH - CLASSICAL || Classical, Baroque, Orchestra, Pia…",
+  "streamUrl": "https://0nlineradio.radioho.st/0r-bach?ref=radio-browser26",
+  "homepage": "",
+  "favicon": "https://i.ibb.co/FbmVd1LG/Bach-KL.png",
+  "tags": [
+   "piano"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 99,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 7,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "e764ca37-9692-47d9-bd39-17842b9db3e6",
+  "name": "EPIC CLASSICAL - Classical Pan Flute",
+  "streamUrl": "https://stream.epic-classical.com/classical-pan-flute?ref=liveradio",
+  "homepage": "",
+  "favicon": "https://i.ibb.co/R2FqgKq/Pan-Flute.jpg",
+  "tags": [
+   "instrumental",
+   "ambient"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 810,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 6,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "bad4945f-cd86-42be-8ef4-72e0db167b45",
+  "name": "Retro Lofi Chiptune Radio",
+  "streamUrl": "https://a5.asurahosting.com:8150/radio.mp3",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "lofi"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 8,
+  "codec": "MP3",
+  "bitrate": 0,
+  "hls": false,
+  "clickCount": 6,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "lofi"
+  ]
+ },
+ {
+  "uuid": "1055f30a-bde4-46c7-a233-4668fcdc8781",
+  "name": "Relax FM Instrumental",
+  "streamUrl": "https://pub0201.101.ru/stream/pro/aac/64/28?",
+  "homepage": "",
+  "favicon": "https://www.radiobells.com/stations/relaxfminstrumental.webp",
+  "tags": [
+   "instrumental"
+  ],
+  "countryCode": "",
+  "country": "The Russian Federation",
+  "state": "",
+  "language": "",
+  "votes": 235,
+  "codec": "AAC+",
+  "bitrate": 64,
+  "hls": false,
+  "clickCount": 5,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": []
+ },
+ {
+  "uuid": "9614eb15-0601-11e8-ae97-52543be04c81",
+  "name": "SomaFM Mission Control (128k MP3)",
+  "streamUrl": "https://ice4.somafm.com/missioncontrol-128-mp3",
+  "homepage": "",
+  "favicon": "https://somafm.com/img3/missioncontrol-400.jpg",
+  "tags": [
+   "ambient"
+  ],
+  "countryCode": "",
+  "country": "The United States Of America",
+  "state": "",
+  "language": "",
+  "votes": 942,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 5,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "fa8b58ac-6503-4f55-b7ea-a70879c871c5",
+  "name": "Hirschmilch Radio",
+  "streamUrl": "https://hirschmilch.de:7001/chillout.mp3",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "ambient"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 427,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 5,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "22ed63fd-57bf-469a-9c71-4524834b74d0",
+  "name": "0nlineradio LO-FI",
+  "streamUrl": "https://stream.0nlineradio.com/lo-fi?ref=radiobrowser",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "lofi"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 102,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 5,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "lofi"
+  ]
+ },
+ {
+  "uuid": "ca0d4e4d-658b-43cc-abce-710075ae358d",
+  "name": "SomaFM Groove Salad (256k MP3)",
+  "streamUrl": "https://ice6.somafm.com/groovesalad-256-mp3",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "sleep",
+   "downtempo"
+  ],
+  "countryCode": "",
+  "country": "The United States Of America",
+  "state": "",
+  "language": "",
+  "votes": 8,
+  "codec": "MP3",
+  "bitrate": 256,
+  "hls": false,
+  "clickCount": 4,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "ambient",
+   "jazz"
+  ]
+ },
+ {
+  "uuid": "3cbbd896-6419-11e9-a622-52543be04c81",
+  "name": "SomaFM CliqHop IDM (256k MP3)",
+  "streamUrl": "https://ice6.somafm.com/cliqhop-256-mp3",
+  "homepage": "",
+  "favicon": "https://somafm.com/img3/cliqhop-400.jpg",
+  "tags": [
+   "idm"
+  ],
+  "countryCode": "",
+  "country": "The United States Of America",
+  "state": "",
+  "language": "",
+  "votes": 669,
+  "codec": "MP3",
+  "bitrate": 256,
+  "hls": false,
+  "clickCount": 4,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "bc0fc480-9229-4d6a-85b8-b91f38191f43",
+  "name": "Epic Lounge - IBIZA CHILLOUT LOUNGE",
+  "streamUrl": "https://stream.epic-lounge.com/ibiza-chillout-lounge?ref=radiobrowser",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "ambient",
+   "chillout",
+   "lounge"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 1475,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 4,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "ambient",
+   "jazz"
+  ]
+ },
+ {
+  "uuid": "37404e52-c3de-497d-b528-8a7ea897f266",
+  "name": "LITT Live - Lofi - Chill & Instrumental Jazz Beats",
+  "streamUrl": "https://das-sa39.cdnstream1.com/5582_128",
+  "homepage": "",
+  "favicon": "https://dashradio-files.s3.amazonaws.com/development/icon_logos/57/logos/6b67891f-ca25-461d-868f-664944bffac0.png",
+  "tags": [
+   "lo-fi",
+   "lofi"
+  ],
+  "countryCode": "",
+  "country": "The United States Of America",
+  "state": "",
+  "language": "",
+  "votes": 19,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 4,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "lofi"
+  ]
+ },
+ {
+  "uuid": "fc2e6c39-7139-4f7a-a0c6-a859244332be",
+  "name": "Whisperings Solo Piano Radio",
+  "streamUrl": "https://pianosolo.streamguys1.com/live",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "piano"
+  ],
+  "countryCode": "",
+  "country": "The United States Of America",
+  "state": "",
+  "language": "",
+  "votes": 868,
+  "codec": "MP3",
+  "bitrate": 96,
+  "hls": false,
+  "clickCount": 3,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "456dae04-eaee-4dc3-bb8c-038412e24d04",
+  "name": "Rádio Máquina Instrumental",
+  "streamUrl": "https://servidor29-2.brlogic.com:8578/live",
+  "homepage": "",
+  "favicon": "https://public-rf-assets.minhawebradio.net/img/favicon.ico",
+  "tags": [
+   "instrumental"
+  ],
+  "countryCode": "",
+  "country": "Brazil",
+  "state": "",
+  "language": "",
+  "votes": 699,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 3,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": []
+ },
+ {
+  "uuid": "791c5785-c2d6-4a44-83d2-6217f23f7d8f",
+  "name": "Instrumentals Forever [AAC 64 kbit]",
+  "streamUrl": "https://quincy.torontocast.com:1925/stream",
+  "homepage": "",
+  "favicon": "https://instrumentalsforever.eu/wp-content/uploads/2018/03/Instrumentals-Forever.png",
+  "tags": [
+   "instrumental"
+  ],
+  "countryCode": "",
+  "country": "Belgium",
+  "state": "",
+  "language": "",
+  "votes": 201,
+  "codec": "AAC",
+  "bitrate": 64,
+  "hls": false,
+  "clickCount": 3,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": []
+ },
+ {
+  "uuid": "982497ba-0b80-4597-9ea0-f9789ea6d5ef",
+  "name": "instrumentales",
+  "streamUrl": "https://protvradiostream.com:8350/live",
+  "homepage": "",
+  "favicon": "null",
+  "tags": [
+   "instrumental"
+  ],
+  "countryCode": "",
+  "country": "Brazil",
+  "state": "",
+  "language": "",
+  "votes": 167,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 3,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": []
+ },
+ {
+  "uuid": "2c6fcb10-d03b-4af3-9081-b284bf6594e0",
+  "name": "MPR Classical Piano",
+  "streamUrl": "https://holiday.stream.publicradio.org/peacefulpiano.mp3",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "piano"
+  ],
+  "countryCode": "",
+  "country": "The United States Of America",
+  "state": "",
+  "language": "",
+  "votes": 459,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 3,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "251e6b0c-2536-4a15-a948-2f6bbf5fb14b",
+  "name": "Radio Record Lo-Fi",
+  "streamUrl": "https://radiorecord.hostingradio.ru/lofi96.aacp",
+  "homepage": "",
+  "favicon": "https://cdn-profiles.tunein.com/s255374/images/logog.png?t=152330",
+  "tags": [
+   "lo-fi",
+   "chillhop"
+  ],
+  "countryCode": "",
+  "country": "The Russian Federation",
+  "state": "",
+  "language": "",
+  "votes": 251,
+  "codec": "AAC",
+  "bitrate": 0,
+  "hls": false,
+  "clickCount": 3,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "lofi"
+  ]
+ },
+ {
+  "uuid": "4e681355-3ebb-4b6c-a79a-d7cc81a0afd5",
+  "name": "REYFM -#LOFI",
+  "streamUrl": "https://listen.reyfm.de/lofi_320kbps.mp3",
+  "homepage": "",
+  "favicon": "http://reyfm.de/_nuxt/icons/icon_64x64.88ab9f.png",
+  "tags": [
+   "lofi"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 415,
+  "codec": "MP3",
+  "bitrate": 320,
+  "hls": false,
+  "clickCount": 3,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "lofi"
+  ]
+ },
+ {
+  "uuid": "2dba6e48-43c2-457f-ad02-922e7def83e5",
+  "name": "lofi",
+  "streamUrl": "https://pub0202.101.ru:8443/stream/pro/aac/64/358?",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "lofi"
+  ],
+  "countryCode": "",
+  "country": "The Russian Federation",
+  "state": "",
+  "language": "",
+  "votes": 137,
+  "codec": "AAC+",
+  "bitrate": 64,
+  "hls": false,
+  "clickCount": 3,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "lofi"
+  ]
+ },
+ {
+  "uuid": "cd280bad-abd6-47ab-8847-735b4f6dc937",
+  "name": "SomaFM n5MD (128k AAC)",
+  "streamUrl": "https://ice6.somafm.com/n5md-128-aac",
+  "homepage": "",
+  "favicon": "https://somafm.com/img3/n5md-400.png",
+  "tags": [
+   "post-rock"
+  ],
+  "countryCode": "",
+  "country": "The United States Of America",
+  "state": "",
+  "language": "",
+  "votes": 310,
+  "codec": "AAC",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 3,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": []
+ },
+ {
+  "uuid": "964867ec-0601-11e8-ae97-52543be04c81",
+  "name": "SomaFM Deep Space One (64k AAC)",
+  "streamUrl": "https://ice2.somafm.com/deepspaceone-64-aac",
+  "homepage": "",
+  "favicon": "http://somafm.com/img3/deepspaceone-400.jpg",
+  "tags": [
+   "ambient"
+  ],
+  "countryCode": "",
+  "country": "The United States Of America",
+  "state": "",
+  "language": "",
+  "votes": 595,
+  "codec": "AAC",
+  "bitrate": 64,
+  "hls": false,
+  "clickCount": 2,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "04963e61-76f5-411c-9fed-2a3b08f9054d",
+  "name": "GOLD INSTRUMENTAL (32kbps/aacPlus)",
+  "streamUrl": "https://centova.svdns.com.br:19373/stream",
+  "homepage": "",
+  "favicon": "https://www.radiosgold.com/favicon.png",
+  "tags": [
+   "instrumental"
+  ],
+  "countryCode": "",
+  "country": "Brazil",
+  "state": "",
+  "language": "",
+  "votes": 313,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 2,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": []
+ },
+ {
+  "uuid": "1e8ba89b-7dcd-4d62-a20d-073739df672d",
+  "name": "Epic Lounge - CHILLOUT LOUNGE",
+  "streamUrl": "https://stream.epic-lounge.com/chillout-lounge?ref=radiobrowser",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "ambient",
+   "chillout",
+   "lounge"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 912,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 2,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "ambient",
+   "jazz"
+  ]
+ },
+ {
+  "uuid": "e26602e7-e8e5-4910-8d05-3b760cd9b52c",
+  "name": "EPIC CLASSICAL - Classical Guitar",
+  "streamUrl": "https://stream.epic-classical.com/classical-guitar",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "ambient"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 522,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 2,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "67658fa0-4d4a-401b-a2b6-27bb060fb3bf",
+  "name": "Epic Lounge - FRENCH CAFÉ LOUNGE",
+  "streamUrl": "https://0nlineradio.stream42.radiohost.de/lounge-french-cafe-lounge?ref=radiobrowser&upd-meta&upd-scheme=https&_art=dD0xNzY4NDQ1MTE3JmQ9ODA5N2Q3ZjM4NTY5ZGM3NzdlNTM",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "piano",
+   "smooth jazz",
+   "lounge"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 372,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 2,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "piano",
+   "jazz"
+  ]
+ },
+ {
+  "uuid": "cf670706-e552-4ffd-b0fc-0a3b55315cf6",
+  "name": "1000 HITS Classical",
+  "streamUrl": "https://ais-sa2.cdnstream1.com/2208_128.mp3",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "piano"
+  ],
+  "countryCode": "",
+  "country": "Spain",
+  "state": "",
+  "language": "",
+  "votes": 372,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 2,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "3d0aad11-97ec-469c-835b-64f12c38dd0e",
+  "name": "EPIC CLASSICAL - Classical Dinner",
+  "streamUrl": "https://stream.epic-classical.com/classical-dinner",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "piano"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 110,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 2,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "188930c7-cda9-4d8b-8262-a695f107c19a",
+  "name": "#1 Splash Classical",
+  "streamUrl": "https://ais-sa2.cdnstream1.com/2208_128.mp3",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "piano"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 91,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 2,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "ef52b56c-6830-4346-b4d3-e42e5ae5d928",
+  "name": "[laut.fm] lofi",
+  "streamUrl": "https://stream.laut.fm/lofi",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "lofi"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 62,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 2,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "lofi"
+  ]
+ },
+ {
+  "uuid": "5008eff6-2ad8-4b72-8d08-ea92b316abbe",
+  "name": "Hunter.FM Lo-Fi",
+  "streamUrl": "https://live.hunter.fm/lofi_normal",
+  "homepage": "",
+  "favicon": "https://cdn.hunter.fm/image/thumb/station/lo-fi-third/400x400ht.jpg",
+  "tags": [
+   "lofi"
+  ],
+  "countryCode": "",
+  "country": "Brazil",
+  "state": "",
+  "language": "",
+  "votes": 32,
+  "codec": "AAC",
+  "bitrate": 0,
+  "hls": false,
+  "clickCount": 2,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "lofi"
+  ]
+ },
+ {
+  "uuid": "6b2eafdd-ce30-4e3c-b25b-161b546aa2f3",
+  "name": "PAX LO-FI",
+  "streamUrl": "https://das-edge16-live365-dal02.cdnstream.com/a24494",
+  "homepage": "",
+  "favicon": "https://image.live365.com/download/cb22e857-3ee0-49f0-90c8-3f9c3e3012f1.png/400/image.webp",
+  "tags": [
+   "lofi"
+  ],
+  "countryCode": "",
+  "country": "The United States Of America",
+  "state": "",
+  "language": "",
+  "votes": 0,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 2,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "lofi"
+  ]
+ },
+ {
+  "uuid": "43e64ad6-ac2c-4765-8b57-a69dd0aca6ce",
+  "name": "Радио Монте Карло - Meditation",
+  "streamUrl": "https://mc-meditation.hostingradio.ru/meditation96.aacp",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "meditation"
+  ],
+  "countryCode": "",
+  "country": "The Russian Federation",
+  "state": "",
+  "language": "",
+  "votes": 629,
+  "codec": "AAC+",
+  "bitrate": 96,
+  "hls": false,
+  "clickCount": 2,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "9f3d4c02-c3f0-4f00-bebe-509ff81b4d54",
+  "name": "EPIC CLASSICAL - Classical Violin",
+  "streamUrl": "https://stream.epic-classical.com/classical-violin",
+  "homepage": "",
+  "favicon": "https://i.ibb.co/DkDPhcZ/Violin.jpg",
+  "tags": [
+   "instrumental",
+   "ambient"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 522,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 1,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "26bcf620-4738-4778-acec-e64d19b4335f",
+  "name": "SOLO PIANO by Epic Piano",
+  "streamUrl": "https://stream.epic-piano.com/solo-piano?ref=radiobrowser",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "instrumental",
+   "piano",
+   "new age"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 428,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 1,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "ambient",
+   "piano"
+  ]
+ },
+ {
+  "uuid": "cabd4859-ac2b-4d27-b1ba-a29ddf7e8c58",
+  "name": "Radio Art - Jazz Piano",
+  "streamUrl": "https://live.radioart.com/fJazz_piano.mp3",
+  "homepage": "",
+  "favicon": "https://www.radioart.com/favicon.ico",
+  "tags": [
+   "instrumental",
+   "piano"
+  ],
+  "countryCode": "",
+  "country": "Greece",
+  "state": "",
+  "language": "",
+  "votes": 317,
+  "codec": "MP3",
+  "bitrate": 96,
+  "hls": false,
+  "clickCount": 1,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "c72d442a-d73b-40f1-b741-e143b620eecf",
+  "name": "Epic Lounge - JAZZHOP",
+  "streamUrl": "https://stream.epic-lounge.com/jazzhop-lounge?ref=radiobrowser",
+  "homepage": "",
+  "favicon": "https://i.ibb.co/9Hc5TxR/Jazz-Hop-Lounge.jpg",
+  "tags": [
+   "instrumental",
+   "lo-fi"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 235,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 1,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "lofi"
+  ]
+ },
+ {
+  "uuid": "b26c3de7-c2ca-4595-95b7-af9f42db3f75",
+  "name": "EPIC CLASSICAL - Classical Meditation",
+  "streamUrl": "https://stream.epic-classical.com/classical-meditation",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "ambient",
+   "meditation",
+   "chillout"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 563,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 1,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "ambient",
+   "jazz"
+  ]
+ },
+ {
+  "uuid": "d3639208-37c3-418e-b71b-ffbd0ec512c1",
+  "name": "EPIC CLASSICAL - Classical Coffee Bar",
+  "streamUrl": "https://stream.epic-classical.com/classical-coffee-bar",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "ambient",
+   "chillout"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 551,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 1,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "ambient",
+   "jazz"
+  ]
+ },
+ {
+  "uuid": "12a8d308-d70b-4ccc-ade3-81155c8a7ab8",
+  "name": "Radio Art - Mellow Piano Jazz",
+  "streamUrl": "https://live.radioart.com/fMellow_piano_jazz.mp3",
+  "homepage": "",
+  "favicon": "https://www.radioart.com/favicon.ico",
+  "tags": [
+   "piano"
+  ],
+  "countryCode": "",
+  "country": "Greece",
+  "state": "",
+  "language": "",
+  "votes": 381,
+  "codec": "MP3",
+  "bitrate": 96,
+  "hls": false,
+  "clickCount": 1,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "b5d3a333-e76a-497f-a43d-b3502358f867",
+  "name": "Klassik Radio - Piano New Classics",
+  "streamUrl": "https://stream.klassikradio.de/pianonewclassics/mp3-192/radiode/",
+  "homepage": "",
+  "favicon": "https://image.config.the-resc.com/production/image/media/image/2022/06/Klassik_Radio_Select_Aggregatoren_piano-new-classics_360x360.jpg",
+  "tags": [
+   "piano"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 281,
+  "codec": "MP3",
+  "bitrate": 0,
+  "hls": false,
+  "clickCount": 1,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "e36bb843-4886-407a-a967-24bb45718cff",
+  "name": "EPIC CLASSICAL - Modern Classical",
+  "streamUrl": "https://stream.epic-classical.com/modern-classical",
+  "homepage": "",
+  "favicon": "https://i.ibb.co/375rVWt/Modern.jpg",
+  "tags": [
+   "piano"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 160,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 1,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "7a540c6b-a9d6-4722-a833-a6676629f539",
+  "name": "Radio Relax - lo-fi",
+  "streamUrl": "https://radio8.dixi.md/listen/relax_lofi/relax_lofi128.aac",
+  "homepage": "",
+  "favicon": "https://radiorelax.md/front-assets/favicon/apple-touch-icon.png",
+  "tags": [
+   "lo-fi"
+  ],
+  "countryCode": "",
+  "country": "The Republic Of Moldova",
+  "state": "",
+  "language": "",
+  "votes": 2,
+  "codec": "AAC",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 1,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "lofi"
+  ]
+ },
+ {
+  "uuid": "a7c9d8fc-2100-42f3-a08b-2e8469966b62",
+  "name": "Hunter.fm O Canal Lo-Fi (High)",
+  "streamUrl": "https://live.hunter.fm/lofi_high",
+  "homepage": "",
+  "favicon": "https://hunter.fm/favicon.ico",
+  "tags": [
+   "lo-fi",
+   "lofi"
+  ],
+  "countryCode": "",
+  "country": "Brazil",
+  "state": "",
+  "language": "",
+  "votes": 1,
+  "codec": "AAC",
+  "bitrate": 0,
+  "hls": false,
+  "clickCount": 1,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "lofi"
+  ]
+ },
+ {
+  "uuid": "c1484aa5-b758-47a1-b098-69db58d6fb78",
+  "name": "I Love Music - I Love Chillhop",
+  "streamUrl": "https://ilm.stream35.radiohost.de/ilm_ilovechillhop_mp3-192?upd-meta&upd-scheme=https&_art=dD0xNzY4NDUwMTU1JmQ9MzQxNTMxNDFhODdjYmQ4MjA5NjE",
+  "homepage": "",
+  "favicon": "https://www.ilovemusic.de/favicon.ico",
+  "tags": [
+   "lofi",
+   "chillhop",
+   "study"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 377,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 1,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "lofi"
+  ]
+ },
+ {
+  "uuid": "ab9697c4-f1cf-48bc-b4d8-4d15ad5618fa",
+  "name": "NIA Radio Lo-Fi",
+  "streamUrl": "https://radio.nia.nc/radio/8020/lofi-hq-stream.aac",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "lofi"
+  ],
+  "countryCode": "",
+  "country": "New Caledonia",
+  "state": "",
+  "language": "",
+  "votes": 293,
+  "codec": "AAC",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 1,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "lofi"
+  ]
+ },
+ {
+  "uuid": "2808c734-6166-4cda-9bbd-d4e05c0c4c32",
+  "name": "Relax & Meditation",
+  "streamUrl": "https://mml1.prostream.se/listen/relax_meditation/radio.mp3",
+  "homepage": "",
+  "favicon": "https://madmix.se/images/logo.jpg",
+  "tags": [
+   "new age",
+   "meditation"
+  ],
+  "countryCode": "",
+  "country": "Sweden",
+  "state": "",
+  "language": "",
+  "votes": 8,
+  "codec": "MP3",
+  "bitrate": 0,
+  "hls": false,
+  "clickCount": 1,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "d5fdc0d9-8aac-4a19-9c3c-3e10692d74f6",
+  "name": "EPIC CLASSICAL - Classical Study",
+  "streamUrl": "https://stream.epic-classical.com/classical-study",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "study"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 284,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 1,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "lofi"
+  ]
+ },
+ {
+  "uuid": "0e14eb3e-a217-421a-ba6a-133bf5c3f95b",
+  "name": "Radio Art - Guitar for Sleep",
+  "streamUrl": "https://air.radioart.online/fGuitar_for_sleep.mp3",
+  "homepage": "",
+  "favicon": "https://cdn.radioart.com/images/channels/138_guitar_for_s-600x400.jpg",
+  "tags": [
+   "sleep"
+  ],
+  "countryCode": "",
+  "country": "Greece",
+  "state": "",
+  "language": "",
+  "votes": 75,
+  "codec": "MP3",
+  "bitrate": 96,
+  "hls": false,
+  "clickCount": 1,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "1969d0e1-b250-4235-a33d-a924e738661b",
+  "name": "Radio Art - Philip Glass",
+  "streamUrl": "https://live.radioart.com/fPhilip_glass.mp3",
+  "homepage": "",
+  "favicon": "https://www.radioart.com/images/channels/172_philip_glass-600x400.jpg",
+  "tags": [
+   "instrumental",
+   "piano",
+   "film music"
+  ],
+  "countryCode": "",
+  "country": "Greece",
+  "state": "",
+  "language": "",
+  "votes": 431,
+  "codec": "MP3",
+  "bitrate": 96,
+  "hls": false,
+  "clickCount": 0,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "956ab97c-bba8-4959-b164-4a5657a1951b",
+  "name": "EPIC CLASSICAL - Classical Restaurant Music",
+  "streamUrl": "https://stream.epic-classical.com/classical-restaurant-music",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "instrumental",
+   "piano"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 153,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 0,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "9614ed70-0601-11e8-ae97-52543be04c81",
+  "name": "SomaFM SF 10-33 (128k MP3)",
+  "streamUrl": "https://ice2.somafm.com/sf1033-128-mp3",
+  "homepage": "",
+  "favicon": "https://somafm.com/img3/sf1033-400.jpg",
+  "tags": [
+   "ambient"
+  ],
+  "countryCode": "",
+  "country": "The United States Of America",
+  "state": "",
+  "language": "",
+  "votes": 498,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 0,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "fe7fb48e-b603-4003-8b95-68a21654feea",
+  "name": "Epic Lounge - COFFEE BAR LOUNGE",
+  "streamUrl": "https://stream.epic-lounge.com/coffee-bar-lounge?ref=radiobrowser",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "ambient",
+   "smooth jazz",
+   "lounge"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 418,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 0,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "ambient",
+   "jazz"
+  ]
+ },
+ {
+  "uuid": "034a6f29-f448-40d9-917e-0d981bdfb5d2",
+  "name": "EPIC CLASSICAL - Classical Background Music",
+  "streamUrl": "https://stream.epic-classical.com/classical-background-music",
+  "homepage": "",
+  "favicon": "https://i.ibb.co/251sfzx/Background-Music.jpg",
+  "tags": [
+   "piano",
+   "smooth jazz"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 349,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 0,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "piano",
+   "jazz"
+  ]
+ },
+ {
+  "uuid": "8b2da670-18bc-4bde-ae60-ebfef8985161",
+  "name": "EPIC CLASSICAL - Classical Romance",
+  "streamUrl": "https://stream.epic-classical.com/classical-romance",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "piano"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 296,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 0,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "43f5dd99-a727-42d3-8164-19618a5957de",
+  "name": "EPIC CLASSICAL - Classical Oldies",
+  "streamUrl": "https://stream.epic-classical.com/classical-oldies",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "piano"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 142,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 0,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "0332d3fd-7ea1-460a-8eb1-ded9c1a4b008",
+  "name": "EPIC CLASSICAL - Classical Pop",
+  "streamUrl": "https://stream.epic-classical.com/classical-pop",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "piano"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 119,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 0,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "22b4735f-78fe-41db-bb98-800333352815",
+  "name": "Epic Lounge - WORKDAY LOUNGE",
+  "streamUrl": "https://stream.epic-lounge.com/workday-lounge?ref=radiobrowser",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "lo-fi",
+   "lofi"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 128,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 0,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "lofi"
+  ]
+ },
+ {
+  "uuid": "658d23e7-8a2e-4221-a8f0-cb4b7e406b8f",
+  "name": "Hotmix Lo-Fi",
+  "streamUrl": "https://streaming.hotmixradio.com/hotmix-lofi-en-mp3?provider=radiobrowser",
+  "homepage": "",
+  "favicon": "https://cdn.hotmixradio.com/hotmix-lo-fi-en-mp3.jpg",
+  "tags": [
+   "lofi",
+   "study"
+  ],
+  "countryCode": "",
+  "country": "France",
+  "state": "",
+  "language": "",
+  "votes": 3,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 0,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "lofi"
+  ]
+ },
+ {
+  "uuid": "26c2fd92-1412-4e55-8334-96b5a4005b46",
+  "name": "hotmix LoFi",
+  "streamUrl": "https://streaming.hotmixradio.com/hotmix-lofi-en-mp3",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "lofi"
+  ],
+  "countryCode": "",
+  "country": "France",
+  "state": "",
+  "language": "",
+  "votes": 2,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 0,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "lofi"
+  ]
+ },
+ {
+  "uuid": "96fb2af6-f66d-4421-993e-9eff511e5829",
+  "name": "Radio Art - Baby Sleep",
+  "streamUrl": "https://air.radioart.online/fBaby_sleep.mp3",
+  "homepage": "",
+  "favicon": "https://cdn.radioart.com/images/channels/140_baby_sleep-600x400.jpg",
+  "tags": [
+   "sleep"
+  ],
+  "countryCode": "",
+  "country": "Greece",
+  "state": "",
+  "language": "",
+  "votes": 41,
+  "codec": "MP3",
+  "bitrate": 96,
+  "hls": false,
+  "clickCount": 0,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "core",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "902ea231-d537-4dc8-8708-6819418086d0",
+  "name": "Vivid Bharti",
+  "streamUrl": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio001/playlist.m3u8",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "classical"
+  ],
+  "countryCode": "",
+  "country": "India",
+  "state": "",
+  "language": "",
+  "votes": 17177,
+  "codec": "AAC",
+  "bitrate": 94,
+  "hls": true,
+  "clickCount": 166,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "df2ef0fb-5019-4eb0-bfea-fa21e6a7e609",
+  "name": "Music Radio",
+  "streamUrl": "https://radio.musicradio.ai/listen/musicradio.ai/radio.mp3",
+  "homepage": "",
+  "favicon": "https://musicradio.ai/wp-content/uploads/2025/03/logo_musicradio.jpg",
+  "tags": [
+   "piano"
+  ],
+  "countryCode": "",
+  "country": "France",
+  "state": "",
+  "language": "",
+  "votes": 118,
+  "codec": "MP3",
+  "bitrate": 0,
+  "hls": false,
+  "clickCount": 140,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "64bb1467-2585-4454-a96f-34cfbc864d41",
+  "name": "WALM 2 HD",
+  "streamUrl": "https://icecast.walmradio.com:8443/walm2",
+  "homepage": "",
+  "favicon": "https://icecast.walmradio.com:8443/walm.jpg",
+  "tags": [
+   "classical"
+  ],
+  "countryCode": "",
+  "country": "The United States Of America",
+  "state": "",
+  "language": "",
+  "votes": 99453,
+  "codec": "MP3",
+  "bitrate": 320,
+  "hls": false,
+  "clickCount": 78,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "510506e7-6bc0-4b91-b6a1-fc024ccad1a8",
+  "name": "SMOOTH JAZZ: Sax, piano, guitarra y voz: cool jazz",
+  "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/ACIR22_s01AAC.aac",
+  "homepage": "",
+  "favicon": "https://i.iheart.com/v3/re/assets.streams/63ee5ccb23c81aa16510435a",
+  "tags": [
+   "piano"
+  ],
+  "countryCode": "",
+  "country": "Mexico",
+  "state": "",
+  "language": "",
+  "votes": 160,
+  "codec": "AAC+",
+  "bitrate": 48,
+  "hls": false,
+  "clickCount": 43,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "a853f228-0e27-4461-8657-5b10f2fd79d7",
+  "name": "Новое радио",
+  "streamUrl": "https://live.novoeradio.by:444/live/novoeradio_aac128/icecast.audio",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "classical"
+  ],
+  "countryCode": "",
+  "country": "Belarus",
+  "state": "",
+  "language": "",
+  "votes": 22659,
+  "codec": "AAC+",
+  "bitrate": 0,
+  "hls": false,
+  "clickCount": 38,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "34a15ee8-a71b-4004-8fce-83650b46af66",
+  "name": "100% ACID JAZZ",
+  "streamUrl": "https://mpc1.mediacp.eu:8356/stream",
+  "homepage": "",
+  "favicon": "https://d1ujqdpfgkvqfi.cloudfront.net/favicon-generator/htdocs/favicons/2024-10-25/f83dbfeda4fbcf3399eb5afd0949c4b1.ico.png",
+  "tags": [
+   "instrumental",
+   "ambient",
+   "piano",
+   "smooth jazz"
+  ],
+  "countryCode": "",
+  "country": "Canada",
+  "state": "",
+  "language": "",
+  "votes": 734,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 32,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient",
+   "piano",
+   "jazz"
+  ]
+ },
+ {
+  "uuid": "a1fbace9-f758-443d-8bca-2dd43c64898a",
+  "name": "RadioSimorgh Authentic Iranian music",
+  "streamUrl": "https://stream.zeno.fm/9svfnobkrxrvv",
+  "homepage": "",
+  "favicon": "https://drive.google.com/file/d/14pqOm4XzVJvRZa9oV3Iq9GeTPlIVhxdV/view?usp=drivesdk",
+  "tags": [
+   "classical"
+  ],
+  "countryCode": "",
+  "country": "Islamic Republic Of Iran",
+  "state": "",
+  "language": "",
+  "votes": 9836,
+  "codec": "MP3",
+  "bitrate": 0,
+  "hls": false,
+  "clickCount": 29,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "02569932-0b3c-4938-9d3e-b00b2158d40b",
+  "name": "AIRPORT LOUNGE RADIO",
+  "streamUrl": "https://az1.mediacp.eu/listen/airport-lounge-radio/radio.mp3",
+  "homepage": "",
+  "favicon": "https://favicon-generator.org/favicon-generator/htdocs/favicons/2023-12-16/9274e8a4803971186ff5c45359ab77a4.ico.png",
+  "tags": [
+   "ambient",
+   "smooth jazz",
+   "chillout",
+   "lounge"
+  ],
+  "countryCode": "",
+  "country": "Canada",
+  "state": "",
+  "language": "",
+  "votes": 2189,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 27,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient",
+   "jazz"
+  ]
+ },
+ {
+  "uuid": "9467b580-dd8b-44d6-b99a-6ac688a50786",
+  "name": "ISEKOI Radio | Chill Zone",
+  "streamUrl": "https://public.isekoi-radio.com/listen/chill/radio.mp3",
+  "homepage": "",
+  "favicon": "https://i.postimg.cc/ncdMKNsn/LOGO-3-2-bg4.png",
+  "tags": [
+   "lofi"
+  ],
+  "countryCode": "",
+  "country": "France",
+  "state": "",
+  "language": "",
+  "votes": 78,
+  "codec": "MP3",
+  "bitrate": 0,
+  "hls": false,
+  "clickCount": 23,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "lofi"
+  ]
+ },
+ {
+  "uuid": "4d712fdb-596c-495a-80eb-6c0cf2c3e649",
+  "name": "NEU RADIO",
+  "streamUrl": "https://nr9.newradio.it/proxy/ebaruffa?mp=/stream",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "ambient",
+   "post-rock"
+  ],
+  "countryCode": "",
+  "country": "Italy",
+  "state": "",
+  "language": "",
+  "votes": 938,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 22,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "54e4b1de-0156-4972-a14e-580111522b44",
+  "name": "SWR4 BW [48 aac]",
+  "streamUrl": "https://liveradio.swr.de/sw890cl/swr4bw/",
+  "homepage": "",
+  "favicon": "https://www.swr.de/assets/swr/swr4/apple-touch-icon-180x180.png",
+  "tags": [
+   "instrumental"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 1183,
+  "codec": "AAC",
+  "bitrate": 96,
+  "hls": false,
+  "clickCount": 21,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": []
+ },
+ {
+  "uuid": "961799c0-0601-11e8-ae97-52543be04c81",
+  "name": "Спокойное радио",
+  "streamUrl": "https://listen9.myradio24.com/6262",
+  "homepage": "",
+  "favicon": "https://i.1.creatium.io/5f/9c/2c/4e16165627237138cbc3273f76782d56f9/196x196/favicon.png",
+  "tags": [
+   "ambient",
+   "chillout",
+   "lounge"
+  ],
+  "countryCode": "",
+  "country": "The Russian Federation",
+  "state": "",
+  "language": "",
+  "votes": 29806,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 21,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient",
+   "jazz"
+  ]
+ },
+ {
+  "uuid": "ec55577f-cff5-4b8b-aeaa-6438c2dfc446",
+  "name": "Melody FM Malaysia",
+  "streamUrl": "https://n09.rcs.revma.com/2u1n6dtbv4uvv/9_11l86ncot7z1w02/playlist.m3u8",
+  "homepage": "",
+  "favicon": "https://media2.fishtank.my/app_themes/melody/ico/apple-icon-120x120.png",
+  "tags": [
+   "classical"
+  ],
+  "countryCode": "",
+  "country": "Malaysia",
+  "state": "",
+  "language": "",
+  "votes": 4183,
+  "codec": "UNKNOWN",
+  "bitrate": 0,
+  "hls": true,
+  "clickCount": 20,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "f98c7b97-e67c-4aea-b91c-b08ffcef8343",
+  "name": "SMOOTH JAZZ DELUXE",
+  "streamUrl": "https://cast1.torontocast.com:4490/;?type=http&nocache=1745925758",
+  "homepage": "",
+  "favicon": "https://d1ujqdpfgkvqfi.cloudfront.net/favicon-generator/htdocs/favicons/2025-04-29/b4058cf6abde795b40675623669b665f.ico.png",
+  "tags": [
+   "instrumental",
+   "smooth jazz",
+   "lounge"
+  ],
+  "countryCode": "",
+  "country": "Canada",
+  "state": "",
+  "language": "",
+  "votes": 604,
+  "codec": "MP3",
+  "bitrate": 320,
+  "hls": false,
+  "clickCount": 17,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "jazz"
+  ]
+ },
+ {
+  "uuid": "aa6ee95d-e208-4592-a121-047056106596",
+  "name": "Ancient FM",
+  "streamUrl": "https://mediaserv73.live-streams.nl:18058/stream",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "classical"
+  ],
+  "countryCode": "",
+  "country": "Canada",
+  "state": "",
+  "language": "",
+  "votes": 3224,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 17,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "15d870bb-86aa-4f97-8360-b586f71886d4",
+  "name": "Radio Digital Malayali",
+  "streamUrl": "https://radio.digitalmalayali.in/listen/stream/radio.mp3",
+  "homepage": "",
+  "favicon": "https://radio.digitalmalayali.in/static/uploads/album_art.1688135987.jpg",
+  "tags": [
+   "lo-fi",
+   "lofi"
+  ],
+  "countryCode": "",
+  "country": "India",
+  "state": "",
+  "language": "",
+  "votes": 178,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 16,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "lofi"
+  ]
+ },
+ {
+  "uuid": "714279f8-7e0e-4ebd-9152-215d3a6164f9",
+  "name": "50首经典古典音乐",
+  "streamUrl": "https://lhttp-hw.qtfm.cn/live/5022308/64k.mp3",
+  "homepage": "",
+  "favicon": "http://pic.qtfm.cn/2015/0206/20150206120225287.jpg!200",
+  "tags": [
+   "instrumental"
+  ],
+  "countryCode": "",
+  "country": "China",
+  "state": "",
+  "language": "",
+  "votes": 289,
+  "codec": "MP3",
+  "bitrate": 0,
+  "hls": false,
+  "clickCount": 15,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": []
+ },
+ {
+  "uuid": "77eaf32d-241f-4f25-b7d6-347783cd4471",
+  "name": "NATURE RADIO SLEEP",
+  "streamUrl": "https://az1.mediacp.eu/listen/natureradiosleep/radio.mp3",
+  "homepage": "",
+  "favicon": "https://d1ujqdpfgkvqfi.cloudfront.net/favicon-generator/htdocs/favicons/2025-03-01/fb714c8d8238b02673a9ee2b018528af.ico.png",
+  "tags": [
+   "ambient",
+   "new age",
+   "meditation",
+   "sleep"
+  ],
+  "countryCode": "",
+  "country": "Italy",
+  "state": "",
+  "language": "",
+  "votes": 397,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 15,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "2f02a25d-9b5d-4c3e-abb7-c43be64ca8d7",
+  "name": "DEEP IN SPACE",
+  "streamUrl": "https://stream.drugradio.ru:8020/stream128",
+  "homepage": "",
+  "favicon": "https://deepinspace.ru/wp-content/uploads/2024/12/logo500.jpg",
+  "tags": [
+   "space music"
+  ],
+  "countryCode": "",
+  "country": "The Russian Federation",
+  "state": "",
+  "language": "",
+  "votes": 249,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 15,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "25ff1b4c-ffcb-4572-a561-9347e0e58c75",
+  "name": "__LOUNGE__ by rautemusik (rm.fm)",
+  "streamUrl": "https://lounge-high.rautemusik.fm/?ref=radiobrowser",
+  "homepage": "",
+  "favicon": "https://www.rm.fm/favicon.ico",
+  "tags": [
+   "ambient",
+   "chillout",
+   "lounge"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 1091,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 14,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient",
+   "jazz"
+  ]
+ },
+ {
+  "uuid": "9067dc39-4bf4-4364-bd6b-8020cff3e15d",
+  "name": "Nightride FM - Chillsynth",
+  "streamUrl": "https://stream.nightride.fm/chillsynth.mp3",
+  "homepage": "",
+  "favicon": "https://nightride.fm/thumbnail.png",
+  "tags": [
+   "instrumental"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 1630,
+  "codec": "MP3",
+  "bitrate": 320,
+  "hls": false,
+  "clickCount": 12,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": []
+ },
+ {
+  "uuid": "be9dcb42-f365-11e8-a471-52543be04c81",
+  "name": "- 0 N - Chillout on Radio",
+  "streamUrl": "https://0n-chillout.radionetz.de/0n-chillout.aac",
+  "homepage": "",
+  "favicon": "https://www.0nradio.com/logos/0n-chillout_600x600.jpg",
+  "tags": [
+   "ambient",
+   "chillout"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 5147,
+  "codec": "AAC+",
+  "bitrate": 64,
+  "hls": false,
+  "clickCount": 12,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient",
+   "jazz"
+  ]
+ },
+ {
+  "uuid": "4dad0ae3-720a-434e-b350-7186e4c5ea6f",
+  "name": "MyNoise Pure Nature",
+  "streamUrl": "https://purenature-mynoise.radioca.st/stream",
+  "homepage": "",
+  "favicon": "https://mynoise.net/apple-touch-icon.png",
+  "tags": [
+   "ambient"
+  ],
+  "countryCode": "",
+  "country": "Belgium",
+  "state": "",
+  "language": "",
+  "votes": 1586,
+  "codec": "MP3",
+  "bitrate": 160,
+  "hls": false,
+  "clickCount": 12,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "95277bca-2c9a-4c08-b2e7-0854e5793f8e",
+  "name": "Nature Radio Rain",
+  "streamUrl": "https://maggie.torontocast.com:2020/stream/natureradiorain",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "ambient"
+  ],
+  "countryCode": "",
+  "country": "Canada",
+  "state": "",
+  "language": "",
+  "votes": 3349,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 11,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "ee614813-177f-4b83-ae6a-5e5b22d440d1",
+  "name": "AshiyaRadio〜アシヤ・ラヂヲ〜",
+  "streamUrl": "https://s3.radio.co/sc8d895604/listen",
+  "homepage": "",
+  "favicon": "https://static.wixstatic.com/media/da9e0b_7c54de8c1f934d67bdab3cec46be5c3e~mv2.png/v1/fill/w_1070,h_1080,al_c/da9e0b_7c54de8c1f934d67bdab3cec46be5c3e~mv2.png",
+  "tags": [
+   "piano",
+   "bossa nova"
+  ],
+  "countryCode": "",
+  "country": "Japan",
+  "state": "",
+  "language": "",
+  "votes": 291,
+  "codec": "AAC",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 11,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "piano",
+   "jazz"
+  ]
+ },
+ {
+  "uuid": "9f0466be-b6b0-4f7c-baff-f64555494804",
+  "name": "Groove Wave Lounge",
+  "streamUrl": "https://stm1.srvif.com:7576/;",
+  "homepage": "",
+  "favicon": "https://www.groovewave.com/favicon.ico",
+  "tags": [
+   "ambient",
+   "lounge"
+  ],
+  "countryCode": "",
+  "country": "Brazil",
+  "state": "",
+  "language": "",
+  "votes": 576,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 10,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient",
+   "jazz"
+  ]
+ },
+ {
+  "uuid": "6e38637d-42a5-4682-b416-6a33ccd8ae29",
+  "name": "Peaceful Piano",
+  "streamUrl": "https://holiday.stream.publicradio.org/peacefulpiano.mp3",
+  "homepage": "",
+  "favicon": "https://img.apmcdn.org/1c913ad25eb3d0eebfda08e6ee2f3f4034346dad/uncropped/b44ea7-20210225-peaceful-piano-1000.jpg",
+  "tags": [
+   "piano"
+  ],
+  "countryCode": "",
+  "country": "The United States Of America",
+  "state": "",
+  "language": "",
+  "votes": 275,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 10,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "91269676-7c60-4d7f-b37d-5601389cd798",
+  "name": "Monte Carlo",
+  "streamUrl": "https://montecarlo.hostingradio.ru/montecarlo96.aacp",
+  "homepage": "",
+  "favicon": "https://montecarlo.ru/_nuxt/img/26f497b.svg",
+  "tags": [
+   "instrumental"
+  ],
+  "countryCode": "",
+  "country": "The Russian Federation",
+  "state": "",
+  "language": "",
+  "votes": 214,
+  "codec": "AAC",
+  "bitrate": 0,
+  "hls": false,
+  "clickCount": 9,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": []
+ },
+ {
+  "uuid": "a1736a09-6b1e-4f1c-89bc-644033121167",
+  "name": "- 0 N - Lounge on Radio",
+  "streamUrl": "https://0n-lounge.radionetz.de/0n-lounge.mp3",
+  "homepage": "",
+  "favicon": "https://www.0nradio.com/logos/0n-lounge_600x600.jpg",
+  "tags": [
+   "ambient",
+   "lounge"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 384,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 9,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient",
+   "jazz"
+  ]
+ },
+ {
+  "uuid": "1711b4da-1e44-49c1-98be-a690d8decacb",
+  "name": "Tizta ትዝታ FM",
+  "streamUrl": "https://stream.zeno.fm/55nlq5yzqlftv",
+  "homepage": "",
+  "favicon": "https://zenoimages.s3.us-west-001.backblazeb2.com/7766189d-acbb-421a-ae31-20564c52dc76/images/logo",
+  "tags": [
+   "ambient"
+  ],
+  "countryCode": "",
+  "country": "Ethiopia",
+  "state": "",
+  "language": "",
+  "votes": 1425,
+  "codec": "MP3",
+  "bitrate": 0,
+  "hls": false,
+  "clickCount": 8,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "2df8d43a-3950-4596-b854-cd8aa1c2c236",
+  "name": "neverland",
+  "streamUrl": "https://stream-166.zeno.fm/oaqigxpfjzqvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJvYXFpZ3hwZmp6cXZ2IiwiaG9zdCI6InN0cmVhbS0xNjYuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IjFnRWVwSWpIUXJXVElZSU1pLVlrenciLCJpYXQiOjE3NDgxMzU4OTUsImV4cCI6MTc0ODEzNTk1NX0.b4Llu6iAJk1NPa2U9OhIjm_3CZQyLuRJZWiNecQWBdY",
+  "homepage": "",
+  "favicon": "https://discord.do/wp-content/uploads/2023/08/Neverland-Fandub.jpg",
+  "tags": [
+   "lofi"
+  ],
+  "countryCode": "",
+  "country": "Argentina",
+  "state": "",
+  "language": "",
+  "votes": 30,
+  "codec": "MP3",
+  "bitrate": 0,
+  "hls": false,
+  "clickCount": 8,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "lofi"
+  ]
+ },
+ {
+  "uuid": "f2be95c6-1e79-4aae-8f6b-6f3d7fc8dc9e",
+  "name": "1st Greek New Age FLAC Radio AAC+ 320kbps",
+  "streamUrl": "https://stream.newageradio.gr/listen/hq/radio.aac",
+  "homepage": "",
+  "favicon": "https://newageradio.gr/Greek_New_Age_1200x1200.png",
+  "tags": [
+   "space music",
+   "new age",
+   "meditation",
+   "downtempo"
+  ],
+  "countryCode": "",
+  "country": "Greece",
+  "state": "",
+  "language": "",
+  "votes": 40,
+  "codec": "AAC",
+  "bitrate": 320,
+  "hls": false,
+  "clickCount": 8,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient",
+   "jazz"
+  ]
+ },
+ {
+  "uuid": "3a60b563-a65d-4cec-a9bf-e74ac94042a1",
+  "name": "WeRave Music Radio 02 - Study and Chillout",
+  "streamUrl": "https://stream.zeno.fm/cpnv07rjvp0vv",
+  "homepage": "",
+  "favicon": "https://werave.com.br/wp-content/uploads/2020/09/vinyl.png",
+  "tags": [
+   "study"
+  ],
+  "countryCode": "",
+  "country": "The United States Of America",
+  "state": "",
+  "language": "",
+  "votes": 340,
+  "codec": "MP3",
+  "bitrate": 0,
+  "hls": false,
+  "clickCount": 8,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "lofi"
+  ]
+ },
+ {
+  "uuid": "0c7c0c0c-5981-440f-bc8a-98530962c191",
+  "name": "0nlineradio VIVALDI",
+  "streamUrl": "https://stream.0nlineradio.com/vivaldi?ref=radiobrowser",
+  "homepage": "",
+  "favicon": "https://i.ibb.co/HKNTfSQ/VIVALDI-NEW.jpg",
+  "tags": [
+   "instrumental"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 651,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 7,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": []
+ },
+ {
+  "uuid": "8bd983bb-80a0-48cf-a1d4-4bc7484719d7",
+  "name": "Chill Lounge Florida (USA) 128k mp3",
+  "streamUrl": "https://vip2.fastcast4u.com/proxy/chillfla?mp=/1",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "ambient",
+   "chillout",
+   "lounge"
+  ],
+  "countryCode": "",
+  "country": "The United States Of America",
+  "state": "",
+  "language": "",
+  "votes": 1245,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 7,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient",
+   "jazz"
+  ]
+ },
+ {
+  "uuid": "cfc90da8-50fe-4465-880d-137f73d52f4d",
+  "name": "The River Of Calm",
+  "streamUrl": "https://listen.radioking.com/radio/49831/stream/86743",
+  "homepage": "",
+  "favicon": "https://play-lh.googleusercontent.com/HT2ucrf6Yvsfvt1yHz0TxD7JlMcj7-RhF4k6mkDISMesN0_rWv26av2NdURuakftH2U",
+  "tags": [
+   "piano",
+   "lounge"
+  ],
+  "countryCode": "",
+  "country": "The United States Of America",
+  "state": "",
+  "language": "",
+  "votes": 496,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 7,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "piano",
+   "jazz"
+  ]
+ },
+ {
+  "uuid": "b019fb4e-adfd-43a9-a00d-68e086e0b06f",
+  "name": "MA:-Hit Radio Maroc",
+  "streamUrl": "https://stream.zeno.fm/une3a02mb",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "classical"
+  ],
+  "countryCode": "",
+  "country": "Morocco",
+  "state": "",
+  "language": "",
+  "votes": 6806,
+  "codec": "MP3",
+  "bitrate": 0,
+  "hls": false,
+  "clickCount": 7,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "d52d7a3c-6547-4bd4-893e-c7599cd6f565",
+  "name": "..مختصر التفسير",
+  "streamUrl": "https://qurango.net/radio/mukhtasartafsir",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "classical"
+  ],
+  "countryCode": "",
+  "country": "Algeria",
+  "state": "",
+  "language": "",
+  "votes": 3640,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 7,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "5143bb9a-3c5e-4c53-a6ec-0108435caf5a",
+  "name": "CHILLOUT PIANO by Epic Piano",
+  "streamUrl": "https://stream.epic-piano.com/chillout-piano?ref=radiobrowser",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "instrumental",
+   "piano",
+   "new age",
+   "chillout"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 1447,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 6,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient",
+   "piano",
+   "jazz"
+  ]
+ },
+ {
+  "uuid": "bf5b804b-45ba-41ed-a1a7-41e0544e08e9",
+  "name": "Radio Nature",
+  "streamUrl": "https://stream.zeno.fm/3ac97ysh6f0uv.aac",
+  "homepage": "",
+  "favicon": "https://radionature.weebly.com/uploads/7/4/0/7/74072033/icon-players_orig.png",
+  "tags": [
+   "ambient",
+   "meditation"
+  ],
+  "countryCode": "",
+  "country": "Spain",
+  "state": "",
+  "language": "",
+  "votes": 1370,
+  "codec": "MP3",
+  "bitrate": 0,
+  "hls": false,
+  "clickCount": 6,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "e35e3676-58e2-48ba-94bf-e32cc024b7cb",
+  "name": "Nightwave Plaza",
+  "streamUrl": "https://radio.plaza.one/ogg",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "lofi"
+  ],
+  "countryCode": "",
+  "country": "The Russian Federation",
+  "state": "",
+  "language": "",
+  "votes": 44,
+  "codec": "OGG",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 6,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "lofi"
+  ]
+ },
+ {
+  "uuid": "07e6c4b7-b1b5-430b-a7a8-166260a775ee",
+  "name": "0nlineradio HÄNDEL",
+  "streamUrl": "https://stream.0nlineradio.com/haendel?ref=radiobrowser",
+  "homepage": "",
+  "favicon": "https://i.ibb.co/y8Pcv7T/HA-NDEL-NEW.jpg",
+  "tags": [
+   "instrumental"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 544,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 5,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": []
+ },
+ {
+  "uuid": "e367b7d5-c51c-4c6e-8442-019cc028d159",
+  "name": "95.5 Jazz",
+  "streamUrl": "https://streaming.radio.co/s36bd2a451/listen",
+  "homepage": "",
+  "favicon": "https://cdn.onlineradiobox.com/img/l/8/27408.v8.png",
+  "tags": [
+   "instrumental",
+   "smooth jazz"
+  ],
+  "countryCode": "",
+  "country": "Costa Rica",
+  "state": "",
+  "language": "",
+  "votes": 174,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 5,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "jazz"
+  ]
+ },
+ {
+  "uuid": "e8d4a75f-f345-4bc7-a837-ce2adc3a2579",
+  "name": "Fayroz",
+  "streamUrl": "https://stream.zeno.fm/zv3e5wykprhvv.mp3",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "classical"
+  ],
+  "countryCode": "",
+  "country": "Morocco",
+  "state": "",
+  "language": "",
+  "votes": 6113,
+  "codec": "MP3",
+  "bitrate": 0,
+  "hls": false,
+  "clickCount": 5,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "f14a48b6-d712-484a-8eea-bdd75a28b0c7",
+  "name": "24Dubstep.pl || CalmFlow",
+  "streamUrl": "https://stream.24dubstep.pl/listen/chillstep/mp3_normal",
+  "homepage": "",
+  "favicon": "https://24dubstep.pl/wp-content/uploads/2020/10/xcropped-logo_po_kompresji.png.pagespeed.ic.YxsjiF_JYL.webp",
+  "tags": [
+   "lo-fi"
+  ],
+  "countryCode": "",
+  "country": "Poland",
+  "state": "",
+  "language": "",
+  "votes": 37,
+  "codec": "AAC",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 5,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "lofi"
+  ]
+ },
+ {
+  "uuid": "a1066341-205f-49fb-af1b-08ef8158efb4",
+  "name": "Rundfunkautist",
+  "streamUrl": "https://rundfunkautist.stream.laut.fm/rundfunkautist?t302=2026-01-30_00-58-09&uuid=f01d031f-bac7-40fd-8688-579aa0ab9b63",
+  "homepage": "",
+  "favicon": "https://api.laut.fm/station/rundfunkautist/images/station",
+  "tags": [
+   "lo-fi",
+   "downtempo"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 9,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 5,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "lofi",
+   "jazz"
+  ]
+ },
+ {
+  "uuid": "159a4c19-b59a-4357-8b40-afec1700eae9",
+  "name": "Sonic Binary",
+  "streamUrl": "https://sonicbinary.it/radio/stream",
+  "homepage": "",
+  "favicon": "https://sonicbinary.it/logoQuadratoICN.png",
+  "tags": [
+   "lo-fi"
+  ],
+  "countryCode": "",
+  "country": "Italy",
+  "state": "",
+  "language": "",
+  "votes": 6,
+  "codec": "MP3",
+  "bitrate": 64,
+  "hls": false,
+  "clickCount": 5,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "lofi"
+  ]
+ },
+ {
+  "uuid": "00741163-70f8-4434-944b-ca4e06e0b628",
+  "name": "MUGEN Radio",
+  "streamUrl": "https://mugenradio.com/hls/live.m3u8",
+  "homepage": "",
+  "favicon": "https://mugenradio.com/cover-mugen-3000.png",
+  "tags": [
+   "lofi",
+   "study"
+  ],
+  "countryCode": "",
+  "country": "XX",
+  "state": "",
+  "language": "",
+  "votes": 5,
+  "codec": "UNKNOWN",
+  "bitrate": 0,
+  "hls": true,
+  "clickCount": 5,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "lofi"
+  ]
+ },
+ {
+  "uuid": "72fa86ec-a990-43d6-98f8-ecc6236ea61e",
+  "name": "雨声轻音乐",
+  "streamUrl": "https://stream.zeno.fm/689zc32y4x8uv",
+  "homepage": "",
+  "favicon": "https://zeno.fm/favicon.ico",
+  "tags": [
+   "instrumental",
+   "ambient"
+  ],
+  "countryCode": "",
+  "country": "China",
+  "state": "",
+  "language": "",
+  "votes": 2455,
+  "codec": "MP3",
+  "bitrate": 0,
+  "hls": false,
+  "clickCount": 4,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "6816e8cd-8b06-4d68-b61f-4d9f54015f95",
+  "name": "CHOPIN by Epic Piano",
+  "streamUrl": "https://stream.epic-piano.com/chopin?ref=radiobrowser",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "instrumental",
+   "piano"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 698,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 4,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "b88337cc-110c-45c9-a482-9138a393eaeb",
+  "name": "Babel",
+  "streamUrl": "https://radios.iwstreaming.uy/8030/stream",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "instrumental"
+  ],
+  "countryCode": "",
+  "country": "Uruguay",
+  "state": "",
+  "language": "",
+  "votes": 657,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 4,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": []
+ },
+ {
+  "uuid": "d5468df4-e6d0-11e9-a96c-52543be04c81",
+  "name": "Slow Focus | NTS",
+  "streamUrl": "https://stream-mixtape-geo.ntslive.net/mixtape",
+  "homepage": "",
+  "favicon": "https://www.nts.live/apple-touch-icon.png?v=47re43rrzb",
+  "tags": [
+   "ambient",
+   "drone"
+  ],
+  "countryCode": "",
+  "country": "The United Kingdom Of Great Britain And Northern Ireland",
+  "state": "",
+  "language": "",
+  "votes": 863,
+  "codec": "MP3",
+  "bitrate": 0,
+  "hls": false,
+  "clickCount": 4,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "44b7f191-9478-46b0-a3b5-5a0ea2b2d64e",
+  "name": "ambient.fm",
+  "streamUrl": "https://ambient.fm/live/",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "ambient",
+   "meditation",
+   "lounge"
+  ],
+  "countryCode": "",
+  "country": "The United States Of America",
+  "state": "",
+  "language": "",
+  "votes": 636,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 4,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient",
+   "jazz"
+  ]
+ },
+ {
+  "uuid": "1e006e64-024e-4c04-96e5-c80559a92e96",
+  "name": "..mohammed_ayyub",
+  "streamUrl": "https://qurango.net/radio/mohammed_ayyub",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "classical"
+  ],
+  "countryCode": "",
+  "country": "Islamic Republic Of Iran",
+  "state": "",
+  "language": "",
+  "votes": 6947,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 4,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "ca77fe5c-3a5c-47f6-b643-587e7c045374",
+  "name": "Rádió 1",
+  "streamUrl": "https://icast.connectmedia.hu/5201/live.mp3",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "classical"
+  ],
+  "countryCode": "",
+  "country": "Hungary",
+  "state": "",
+  "language": "",
+  "votes": 3027,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 4,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "465e8c27-0340-4e2b-a067-3319f55cdbff",
+  "name": "Palmera Blanca radio - Daystream",
+  "streamUrl": "https://daystream.palmerablanca.com/daystream-128.mp3",
+  "homepage": "",
+  "favicon": "https://palmerablanca.com/cover.png",
+  "tags": [
+   "lo-fi",
+   "downtempo"
+  ],
+  "countryCode": "",
+  "country": "Kazakhstan",
+  "state": "",
+  "language": "",
+  "votes": 28,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 4,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "lofi",
+   "jazz"
+  ]
+ },
+ {
+  "uuid": "37e6772a-5ab7-429d-84bc-fedc606cc8c4",
+  "name": "Systrum Sistum - SSR1",
+  "streamUrl": "https://systrum.net:8443/SSR1",
+  "homepage": "",
+  "favicon": "https://www.systrum.net/assets/img/favicons/favicon.svg",
+  "tags": [
+   "drone"
+  ],
+  "countryCode": "",
+  "country": "Australia",
+  "state": "",
+  "language": "",
+  "votes": 97,
+  "codec": "MP3",
+  "bitrate": 256,
+  "hls": false,
+  "clickCount": 4,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "d817adf7-63e1-48bc-9778-c6c4ed27c8a8",
+  "name": "ETX.FM - Electronic Listening Music by Exposure Therapy",
+  "streamUrl": "https://etx.fm/stream",
+  "homepage": "",
+  "favicon": "https://etx.fm/apple-touch-icon.png",
+  "tags": [
+   "drone"
+  ],
+  "countryCode": "",
+  "country": "The United States Of America",
+  "state": "",
+  "language": "",
+  "votes": 0,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 4,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "65479d00-dd6e-494e-93b0-a8607b846d12",
+  "name": "Nightride FM - Datawave",
+  "streamUrl": "https://stream.nightride.fm/datawave.mp3",
+  "homepage": "",
+  "favicon": "https://nightride.fm/thumbnail.png",
+  "tags": [
+   "idm"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 254,
+  "codec": "MP3",
+  "bitrate": 320,
+  "hls": false,
+  "clickCount": 4,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "a335d5e9-48f7-4ed6-a13e-0b2e4b78f320",
+  "name": "Another Music Project",
+  "streamUrl": "https://radio.anothermusicproject.com:8443/idm",
+  "homepage": "",
+  "favicon": "https://anothermusicproject.com/gfx/tx.favicon.ico",
+  "tags": [
+   "idm"
+  ],
+  "countryCode": "",
+  "country": "Belarus",
+  "state": "",
+  "language": "",
+  "votes": 6,
+  "codec": "MP3",
+  "bitrate": 16,
+  "hls": false,
+  "clickCount": 4,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "b78fd386-08ec-4246-8372-d5f97c56a8ee",
+  "name": "ROMANTIC PIANO by Epic Piano",
+  "streamUrl": "https://stream.epic-piano.com/romantic-piano?ref=radiobrowser",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "instrumental",
+   "piano"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 947,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 3,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "fefcd817-c686-40d1-8027-0ee2fdc74d84",
+  "name": "TSCHAIKOWSKI by Epic Piano",
+  "streamUrl": "https://stream.epic-piano.com/tschaikowski?ref=radiobrowser",
+  "homepage": "",
+  "favicon": "https://i.ibb.co/hLKJJQS/Tschaikovski-PIANO.jpg",
+  "tags": [
+   "instrumental",
+   "piano"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 162,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 3,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "7cbdb65f-be6a-43fa-88b9-1048aaa4796d",
+  "name": "无印良品BGM精选",
+  "streamUrl": "https://stream.zeno.fm/brv193g9468uv",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "instrumental"
+  ],
+  "countryCode": "",
+  "country": "China",
+  "state": "",
+  "language": "",
+  "votes": 158,
+  "codec": "MP3",
+  "bitrate": 0,
+  "hls": false,
+  "clickCount": 3,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": []
+ },
+ {
+  "uuid": "61d21e9e-5fd7-42fa-9cac-739ab515aa8c",
+  "name": "GRIEG by Epic Piano",
+  "streamUrl": "https://stream.epic-piano.com/grieg?ref=radiobrowser",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "instrumental",
+   "piano"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 156,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 3,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "11d36148-d486-47a7-8440-4f0dd731c944",
+  "name": "Zocker-FM",
+  "streamUrl": "https://zockerfm.stream.laut.fm/zockerfm?t302=2026-03-24_21-33-02&uuid=6eac6792-303d-4e5d-ad71-01368a022035",
+  "homepage": "",
+  "favicon": "https://assets.laut.fm/9721c8d3b2da107f0341ce2e5c01bc9a?t=_120x120",
+  "tags": [
+   "lo-fi",
+   "lofi"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 2,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 3,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "lofi"
+  ]
+ },
+ {
+  "uuid": "7e11cde5-d406-48f2-8c1e-0d6b468343d9",
+  "name": "Radio ACID - Everything Chill.",
+  "streamUrl": "https://stream.radioacid.com/stream",
+  "homepage": "",
+  "favicon": "https://radioacid.com/radio-browser/radioacid.png",
+  "tags": [
+   "chillhop"
+  ],
+  "countryCode": "",
+  "country": "The United States Of America",
+  "state": "",
+  "language": "",
+  "votes": 9,
+  "codec": "MP3",
+  "bitrate": 256,
+  "hls": false,
+  "clickCount": 3,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "lofi"
+  ]
+ },
+ {
+  "uuid": "8492e24d-7908-4cc4-9ee7-c3d5475c42d7",
+  "name": "7 Rays Radio",
+  "streamUrl": "https://7rays.stream.laut.fm/7rays",
+  "homepage": "",
+  "favicon": "https://7promeniv.com.ua/images/Seven_Rays_Mix/7RaysRadioLogoNew.jpg",
+  "tags": [
+   "new age",
+   "meditation"
+  ],
+  "countryCode": "",
+  "country": "Ukraine",
+  "state": "",
+  "language": "",
+  "votes": 50,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 3,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "9211a090-f78c-48e8-b5bf-3f0bf27f5bf2",
+  "name": "KLCBS New Age",
+  "streamUrl": "https://streaming.klcbsofficial.com/listen/newage/klcbs-newage",
+  "homepage": "",
+  "favicon": "https://klcbsofficial.com/wp-content/uploads/2024/07/fav-klcbs_11zon.png",
+  "tags": [
+   "new age"
+  ],
+  "countryCode": "",
+  "country": "Indonesia",
+  "state": "",
+  "language": "",
+  "votes": 33,
+  "codec": "AAC",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 3,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "7d6dcf26-1b55-4916-a2bf-39a583b9fb79",
+  "name": "ГУСЬ-Релакс",
+  "streamUrl": "https://stream4.radiogoose.ru/listen/relax/play",
+  "homepage": "",
+  "favicon": "https://radiogoose.ru/res/logo/relax.png",
+  "tags": [
+   "new age",
+   "sleep"
+  ],
+  "countryCode": "",
+  "country": "The Russian Federation",
+  "state": "",
+  "language": "",
+  "votes": 2,
+  "codec": "AAC",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 3,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "6819ff68-0ddb-44fb-a3c6-3ed1c7fe0e4b",
+  "name": "WKNC 88.1 HD1",
+  "streamUrl": "https://streaming.live365.com/a45877",
+  "homepage": "",
+  "favicon": "https://wknc.org/wp-content/uploads/2020/05/wknc881inline-w-768x231.png",
+  "tags": [
+   "post-rock"
+  ],
+  "countryCode": "",
+  "country": "The United States Of America",
+  "state": "",
+  "language": "",
+  "votes": 51,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 3,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": []
+ },
+ {
+  "uuid": "a44e9b2b-ed6f-4245-862e-bc701da97fdb",
+  "name": "Systrum Sistum - SSR2",
+  "streamUrl": "https://systrum.net:8443/SSR2",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "idm"
+  ],
+  "countryCode": "",
+  "country": "Australia",
+  "state": "",
+  "language": "",
+  "votes": 133,
+  "codec": "MP3",
+  "bitrate": 256,
+  "hls": false,
+  "clickCount": 3,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "bbe2c59a-a45a-4227-844f-69d8e1f0123f",
+  "name": "Канал \"Музыка без слов\" Radio Rusrek Радио Русская Реклама",
+  "streamUrl": "https://securestreams6.autopo.st:2130/instrumental",
+  "homepage": "",
+  "favicon": "https://radio.rusrek.com/templates/rusrek/favicon.ico",
+  "tags": [
+   "instrumental"
+  ],
+  "countryCode": "",
+  "country": "The United States Of America",
+  "state": "",
+  "language": "",
+  "votes": 182,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 2,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": []
+ },
+ {
+  "uuid": "25521044-8d84-4f47-b669-e1ffdcd799cf",
+  "name": "Ella Radio - Piano Jazz",
+  "streamUrl": "https://stream.ella-radio.de/ella-piano-jazz/mp3-192?ref=radio-browser",
+  "homepage": "",
+  "favicon": "https://ella-radio.de/uplink/Ella_Piano-Jazz.jpg",
+  "tags": [
+   "piano"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 45,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 2,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "4c0d525b-62e2-46d7-929b-dd829b5c9b4c",
+  "name": "Michael Jackson music star",
+  "streamUrl": "https://icy.unitedradio.it/um2908.mp3",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "classical"
+  ],
+  "countryCode": "",
+  "country": "Afghanistan",
+  "state": "",
+  "language": "",
+  "votes": 5323,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 2,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "0e0d15ed-2e2f-4b81-ac37-d20172966959",
+  "name": "Radio Lola - Domaca",
+  "streamUrl": "https://streaming.tdiradio.com/radiolola.mp3",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "classical"
+  ],
+  "countryCode": "",
+  "country": "Serbia",
+  "state": "",
+  "language": "",
+  "votes": 3839,
+  "codec": "MP3",
+  "bitrate": 0,
+  "hls": false,
+  "clickCount": 2,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "f4722411-69a1-413d-9922-5017d5aef925",
+  "name": "Special-Radio",
+  "streamUrl": "https://special-radio.stream.laut.fm/special-radio?t302=2026-03-24_22-09-25&uuid=bbf6c4db-2005-4024-9674-9ccb3a4d3d90",
+  "homepage": "",
+  "favicon": "https://assets.laut.fm/a32f99500d9bc3864c7b619152c8e6e9?t=_120x120",
+  "tags": [
+   "lo-fi",
+   "lofi",
+   "meditation"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 3,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 2,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient",
+   "lofi"
+  ]
+ },
+ {
+  "uuid": "a1e34b61-f532-4308-b2b9-b44c69f8507d",
+  "name": "BGMVibes",
+  "streamUrl": "https://radio.sutekihost.com/listen/bgmvibes/radio.mp3",
+  "homepage": "",
+  "favicon": "https://radio.sutekihost.com/static/uploads/album_art.1743805787.jpg",
+  "tags": [
+   "lofi"
+  ],
+  "countryCode": "",
+  "country": "The United States Of America",
+  "state": "",
+  "language": "",
+  "votes": 15,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 2,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "lofi"
+  ]
+ },
+ {
+  "uuid": "76bea234-d802-4830-b8a3-84b2a2375cfb",
+  "name": "SLS Digital Music",
+  "streamUrl": "https://slsdigitalradio.com:8000/radio.mp3",
+  "homepage": "",
+  "favicon": "https://slsdigitalmusic.com/assets/logo7.png",
+  "tags": [
+   "lofi"
+  ],
+  "countryCode": "",
+  "country": "The United States Of America",
+  "state": "",
+  "language": "",
+  "votes": 2,
+  "codec": "AAC",
+  "bitrate": 64,
+  "hls": false,
+  "clickCount": 2,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "lofi"
+  ]
+ },
+ {
+  "uuid": "0677809b-7a09-4151-9aaa-78021b566ed6",
+  "name": "irvess",
+  "streamUrl": "https://irvess.com/stream/irvess",
+  "homepage": "",
+  "favicon": "https://irvess.com/assets/img/icon-512.png",
+  "tags": [
+   "lofi"
+  ],
+  "countryCode": "",
+  "country": "Türkiye",
+  "state": "",
+  "language": "",
+  "votes": 0,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 2,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "lofi"
+  ]
+ },
+ {
+  "uuid": "737c84ae-4529-40cc-970c-bcd1ec561068",
+  "name": "ISEKOI Radio | Non-Stop Ambient",
+  "streamUrl": "https://public.isekoi-radio.com/listen/ambient/ambientradio.flac",
+  "homepage": "",
+  "favicon": "https://i.postimg.cc/3rFkNkY4/LOGO-3-2-bg3.png",
+  "tags": [
+   "meditation"
+  ],
+  "countryCode": "",
+  "country": "France",
+  "state": "",
+  "language": "",
+  "votes": 103,
+  "codec": "OGG",
+  "bitrate": 0,
+  "hls": false,
+  "clickCount": 2,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "daf5768f-048b-4c70-8084-a795fae32eb1",
+  "name": "World Buddhist Radio",
+  "streamUrl": "https://26343.live.streamtheworld.com/SAM11AAC025.mp3",
+  "homepage": "",
+  "favicon": "https://bdcu.org.au/sangye/wp-content/uploads/2023/12/favicon.jpg",
+  "tags": [
+   "meditation"
+  ],
+  "countryCode": "",
+  "country": "Australia",
+  "state": "",
+  "language": "",
+  "votes": 70,
+  "codec": "MP3",
+  "bitrate": 64,
+  "hls": false,
+  "clickCount": 2,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "0ea5c74b-3d4c-4d4d-aea9-d63e4a7019ee",
+  "name": "__STUDY__ by rautemusik (rm.fm)",
+  "streamUrl": "https://study-high.rautemusik.fm/?ref=radiobrowser",
+  "homepage": "",
+  "favicon": "https://www.rm.fm/favicon.ico",
+  "tags": [
+   "study"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 382,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 2,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "lofi"
+  ]
+ },
+ {
+  "uuid": "6cf9cad4-ef5a-4abc-8802-a2f112ca751d",
+  "name": "FluxFM Chillout Radio | 320k AAC",
+  "streamUrl": "https://fluxmusic.api.radiosphere.io/channels/chillout-radio/stream.aac?quality=10",
+  "homepage": "",
+  "favicon": "https://fluxmusic.cdn.radiosphere.io/images/dd0ef982-be00-4eab-bd45-922c00f39deb?type=medium",
+  "tags": [
+   "study",
+   "downtempo"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 10,
+  "codec": "AAC",
+  "bitrate": 0,
+  "hls": false,
+  "clickCount": 2,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "lofi",
+   "jazz"
+  ]
+ },
+ {
+  "uuid": "3a6e96c5-66bb-11e9-af37-52543be04c81",
+  "name": "NEOFOLK",
+  "streamUrl": "https://stream.laut.fm/neofolk",
+  "homepage": "",
+  "favicon": "https://i0.wp.com/flatlinesradio.de/storage/2021/11/244611397_1194785584320990_6265045071816304131_n-1.jpg?fit=180%2c180&#038;ssl=1",
+  "tags": [
+   "post-rock"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 304,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 2,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": []
+ },
+ {
+  "uuid": "61b572b0-b512-4374-b6c5-ed26655a0706",
+  "name": "Laut.fm Post-Rock",
+  "streamUrl": "https://post-rock.stream.laut.fm/post-rock?pl=m3u&t302=2026-01-14_23-35-11&uuid=93c98b91-e6ff-4ab5-9657-597cdbf44605",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "post-rock"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 81,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 2,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": []
+ },
+ {
+  "uuid": "2b957d50-4a98-4f70-a9e4-5860ddb6dc68",
+  "name": "Super45.fm",
+  "streamUrl": "https://s4.radio.co/s421105570/listen",
+  "homepage": "",
+  "favicon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2G2hrZMZmI0JIFCf0yrQLjyQlpliE6YLU6g&s",
+  "tags": [
+   "post-rock"
+  ],
+  "countryCode": "",
+  "country": "Chile",
+  "state": "",
+  "language": "",
+  "votes": 5,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 2,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": []
+ },
+ {
+  "uuid": "6af22763-e633-41eb-96e4-7bf712c088aa",
+  "name": "Auralis Radio",
+  "streamUrl": "https://auralis-radio.com/radio.mp3",
+  "homepage": "",
+  "favicon": "https://auralis-radio.com/favicon.svg",
+  "tags": [
+   "downtempo",
+   "idm"
+  ],
+  "countryCode": "",
+  "country": "Sweden",
+  "state": "",
+  "language": "",
+  "votes": 4,
+  "codec": "MP3",
+  "bitrate": 320,
+  "hls": false,
+  "clickCount": 2,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient",
+   "jazz"
+  ]
+ },
+ {
+  "uuid": "52f24fb1-243d-4ea2-bd3a-4ea783cd96b0",
+  "name": "Ibiza Sonica | Sonica Futura",
+  "streamUrl": "https://n10.radiojar.com/vt992kyru72vv",
+  "homepage": "",
+  "favicon": "https://d2zc6zei1a4ice.cloudfront.net/media/cover-image/8c300ce3e1054fccb270c3156f715d60.600x600_q85_crop.jpg?Expires=1788912000&Signature=NN4~~0dkElqOZYCq~YfkKn73HqS4D6~oc3sdtGpHzeMNaekH2poA9ZoAYky9a2h9WUbXI6jrLWMABsMpJ4pe2DmcVhBit0VtwsxS5G34c-D8QpgZwdEn9YnxrnusFBPBGqDt~zndJqek7ufyE7HMFSDQXfs7JPvcqP-1hgtZlHmwlavR~-lJOLEjLWL5Am1Ywki0igjBlNRy18CSIS-3x2JpuS1HLPOd7aIu2jjQswt8U4q8JvjUwyPmiP2SVZXDa6VEq5NnVcKkA9mWste797BR0rInL~oeoc0lWWb1sEyr368JNDJP8GvVou7P3aXDiVPdmMz~aFSn8l-9iPSpyg__&Key-Pair-Id=KWDD4JQ4TPZC8",
+  "tags": [
+   "idm"
+  ],
+  "countryCode": "",
+  "country": "Spain",
+  "state": "",
+  "language": "",
+  "votes": 17,
+  "codec": "MP3",
+  "bitrate": 0,
+  "hls": false,
+  "clickCount": 2,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "66bda19f-02fe-4462-a6c1-dbdcbf9feebe",
+  "name": "__SOLOPIANO__ by rautemusik (rm.fm)",
+  "streamUrl": "https://solopiano-high.rautemusik.fm/?ref=radiobrowser",
+  "homepage": "",
+  "favicon": "https://www.rm.fm/favicon.ico",
+  "tags": [
+   "instrumental",
+   "piano",
+   "new age"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 334,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 1,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient",
+   "piano"
+  ]
+ },
+ {
+  "uuid": "79ce3b10-1cf5-4f60-9f44-e663c872f257",
+  "name": "MI Radio (Percy Altamirano & Dj Ethamx)",
+  "streamUrl": "https://stream-170.zeno.fm/g9afqk829ibtv",
+  "homepage": "",
+  "favicon": "https://i.imgur.com/CWXS1ua.png",
+  "tags": [
+   "instrumental"
+  ],
+  "countryCode": "",
+  "country": "Peru",
+  "state": "",
+  "language": "",
+  "votes": 228,
+  "codec": "MP3",
+  "bitrate": 0,
+  "hls": false,
+  "clickCount": 1,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": []
+ },
+ {
+  "uuid": "859ec680-93f3-4b6a-a7f8-4524e6df36b2",
+  "name": "SUN Classique",
+  "streamUrl": "https://diffusion.lafrap.fr/sun-classique.mp3",
+  "homepage": "",
+  "favicon": "https://www.lesonunique.com/datasun/images_flux/logos/SD/classique.png",
+  "tags": [
+   "instrumental"
+  ],
+  "countryCode": "",
+  "country": "France",
+  "state": "",
+  "language": "",
+  "votes": 218,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 1,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": []
+ },
+ {
+  "uuid": "92aef6af-edb6-4fae-b212-c990deb76efc",
+  "name": "Lounge Radio Ibiza",
+  "streamUrl": "https://stream.laut.fm/lounge-radio-ibiza",
+  "homepage": "",
+  "favicon": "https://lounge-radio-ibiza.com/favicon.ico",
+  "tags": [
+   "ambient",
+   "chillout",
+   "lounge"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 808,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 1,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient",
+   "jazz"
+  ]
+ },
+ {
+  "uuid": "a5bffcf2-3924-40a7-998a-221011fb0a20",
+  "name": "雨声",
+  "streamUrl": "https://stream.zeno.fm/ckptaagp6x8uv",
+  "homepage": "",
+  "favicon": "https://zeno.fm/favicon.ico",
+  "tags": [
+   "ambient",
+   "sleep"
+  ],
+  "countryCode": "",
+  "country": "China",
+  "state": "",
+  "language": "",
+  "votes": 694,
+  "codec": "MP3",
+  "bitrate": 0,
+  "hls": false,
+  "clickCount": 1,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "9609e140-0601-11e8-ae97-52543be04c81",
+  "name": "Laut.FM Chillharmonie",
+  "streamUrl": "https://chillharmonie.stream.laut.fm/chillharmonie",
+  "homepage": "",
+  "favicon": "https://lh3.ggpht.com/a4M_Oyz2Jek1bkcRe8I7v3A8clEOoOI8Y-NiYuuICuw0wOHwaZgMUit4rRgC18mGZMo_=w300",
+  "tags": [
+   "piano",
+   "new age",
+   "soundtrack"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 564,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 1,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient",
+   "piano"
+  ]
+ },
+ {
+  "uuid": "ba3ca13b-147a-4591-b3c0-89c84cdd45ff",
+  "name": "PIANO COVERHITS by Epic Piano",
+  "streamUrl": "https://stream.epic-piano.com/piano-coverhits?ref=radiobrowser",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "piano"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 315,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 1,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "3ed7d046-0a6a-47f4-a470-147b3dee79ff",
+  "name": "GREAT PIANO CONCERTS by Epic Piano",
+  "streamUrl": "https://stream.epic-piano.com/great-piano-concerts?ref=radiobrowser",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "piano"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 231,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 1,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "a6e8bb41-9417-46b8-8627-46d5e26b86c5",
+  "name": "StarFM",
+  "streamUrl": "https://edge.iono.fm/xice/112_medium.aac",
+  "homepage": "",
+  "favicon": "https://star919fm.co.za/storage/2022/08/cropped-StarFm_Logo-2048x1453-1-192x192.png",
+  "tags": [
+   "piano"
+  ],
+  "countryCode": "",
+  "country": "South Africa",
+  "state": "",
+  "language": "",
+  "votes": 174,
+  "codec": "AAC",
+  "bitrate": 0,
+  "hls": false,
+  "clickCount": 1,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "f8ba223e-a674-4c7a-ac99-787dfe36ca02",
+  "name": "LISZT by Epic Piano",
+  "streamUrl": "https://stream.epic-piano.com/liszt?ref=radiobrowser",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "piano"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 166,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 1,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "8bb171e6-689f-4041-bbb5-4d95d70576e4",
+  "name": "united music piano",
+  "streamUrl": "https://icy.unitedradio.it/um077.mp3",
+  "homepage": "",
+  "favicon": "https://www.unitedmusic.com/favicon_6.ico?v=1558694480199",
+  "tags": [
+   "piano"
+  ],
+  "countryCode": "",
+  "country": "Italy",
+  "state": "",
+  "language": "",
+  "votes": 112,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 1,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "ae185e7b-b269-4cc7-a3a4-93fd46334145",
+  "name": "Radio Amra",
+  "streamUrl": "https://streamer.radio.co/s34b5469e0/listen",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "classical"
+  ],
+  "countryCode": "",
+  "country": "Georgia",
+  "state": "",
+  "language": "",
+  "votes": 4417,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 1,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "e9931568-60d6-4c8d-9352-3d30fe7c6515",
+  "name": "Vox Fm",
+  "streamUrl": "https://radio.stream.smcdn.pl/timeradio-p/3990-1.aac/playlist.m3u8",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "classical"
+  ],
+  "countryCode": "",
+  "country": "Poland",
+  "state": "",
+  "language": "",
+  "votes": 2659,
+  "codec": "UNKNOWN",
+  "bitrate": 0,
+  "hls": true,
+  "clickCount": 1,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "5e532636-ce00-48b3-ace9-b6c8c513fa29",
+  "name": "MonteCarlo Nights",
+  "streamUrl": "https://mc-chilllonge.hostingradio.ru/chilllonge96.aacp",
+  "homepage": "",
+  "favicon": "https://station.ru/resize_130x130/uploads/40/d3/cda32ef542a4700cc2ec49d650e8.png",
+  "tags": [
+   "lo-fi",
+   "downtempo"
+  ],
+  "countryCode": "",
+  "country": "The Russian Federation",
+  "state": "",
+  "language": "",
+  "votes": 76,
+  "codec": "AAC+",
+  "bitrate": 96,
+  "hls": false,
+  "clickCount": 1,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "lofi",
+   "jazz"
+  ]
+ },
+ {
+  "uuid": "7a5733c8-b9a5-4746-8182-01b2ba99edae",
+  "name": "Food and Lounge",
+  "streamUrl": "https://stream.laut.fm/food-and-lounge",
+  "homepage": "",
+  "favicon": "https://laut.fm/assets/touch-icons/favicon-16x16.png?21f4f2f5",
+  "tags": [
+   "lo-fi"
+  ],
+  "countryCode": "",
+  "country": "The Netherlands",
+  "state": "",
+  "language": "",
+  "votes": 15,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 1,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "lofi"
+  ]
+ },
+ {
+  "uuid": "2d6dcbe0-df6a-4078-86a9-c48a1beea76d",
+  "name": "Signal City — ElderGut Dawn Hour",
+  "streamUrl": "https://signalcity.tv/eldergut.mp3",
+  "homepage": "",
+  "favicon": "https://signalcity.tv/icons/icon-192.png",
+  "tags": [
+   "lo-fi"
+  ],
+  "countryCode": "",
+  "country": "The United States Of America",
+  "state": "",
+  "language": "",
+  "votes": 1,
+  "codec": "MP3",
+  "bitrate": 0,
+  "hls": false,
+  "clickCount": 1,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "lofi"
+  ]
+ },
+ {
+  "uuid": "29395552-1f19-4442-84d5-4242e9d98305",
+  "name": "b3cks-radio",
+  "streamUrl": "https://radio.b3ck.com/listen/b3cks-radio/radio.mp3",
+  "homepage": "",
+  "favicon": "https://b3ck.com/uploadz/uploads/b3cks-radio.png",
+  "tags": [
+   "lofi",
+   "chillhop",
+   "study"
+  ],
+  "countryCode": "",
+  "country": "The United States Of America",
+  "state": "",
+  "language": "",
+  "votes": 11,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 1,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "lofi"
+  ]
+ },
+ {
+  "uuid": "c81f0dfe-0497-4c53-b8a0-36e8494ee207",
+  "name": "Low Key - Infinite Mixtapes | NTS",
+  "streamUrl": "https://stream-mixtape-geo.ntslive.net/mixtape2",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "lofi"
+  ],
+  "countryCode": "",
+  "country": "The United Kingdom Of Great Britain And Northern Ireland",
+  "state": "",
+  "language": "",
+  "votes": 6,
+  "codec": "MP3",
+  "bitrate": 0,
+  "hls": false,
+  "clickCount": 1,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "lofi"
+  ]
+ },
+ {
+  "uuid": "da9f885b-7a1c-40fb-ad31-4a4eafb79940",
+  "name": "NTS Infinite Mixtapes - Slow Focus",
+  "streamUrl": "https://stream-mixtape-geo.ntslive.net/mixtape",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "drone"
+  ],
+  "countryCode": "",
+  "country": "The United Kingdom Of Great Britain And Northern Ireland",
+  "state": "",
+  "language": "",
+  "votes": 30,
+  "codec": "MP3",
+  "bitrate": 0,
+  "hls": false,
+  "clickCount": 1,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "c19e39ff-a86f-4d55-a4c1-55e9d791f59a",
+  "name": "MDK Space Radio",
+  "streamUrl": "https://radio.mdkband.com/stream.mp3",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "drone",
+   "idm"
+  ],
+  "countryCode": "",
+  "country": "Mexico",
+  "state": "",
+  "language": "",
+  "votes": 1,
+  "codec": "MP3",
+  "bitrate": 160,
+  "hls": false,
+  "clickCount": 1,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "311a0770-f57b-42fe-9de4-9c8fdc7b84e1",
+  "name": "Cidade_fm",
+  "streamUrl": "https://stream-hls.bauermedia.pt/cidade.aac/playlist.m3u8",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "new age"
+  ],
+  "countryCode": "",
+  "country": "Portugal",
+  "state": "",
+  "language": "",
+  "votes": 424,
+  "codec": "AAC",
+  "bitrate": 127,
+  "hls": true,
+  "clickCount": 1,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "d4f41697-61c8-4cd5-bcd3-93c0d5248a84",
+  "name": "DrGnu - Metal 2",
+  "streamUrl": "https://fluxfm.streamabc.net/flx-metalfm-mp3-320-9154971?sABC=6202r2p8%230%23sorr1p583723p06268o324o2ps5n399q%23fgernzf.syhksz.qr&amsparams=playerid:streams.fluxfm.de;skey:1644356296",
+  "homepage": "",
+  "favicon": "https://www.fluxfm.de/assets/favicons/apple-icon-120x120.png",
+  "tags": [
+   "new age"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 336,
+  "codec": "MP3",
+  "bitrate": 0,
+  "hls": false,
+  "clickCount": 1,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "78363b80-d1dd-4a4c-9087-6ed976878360",
+  "name": "DrGnu - 80th Rock II",
+  "streamUrl": "https://fluxfm.streamabc.net/flx-80er-mp3-320-9596107?sABC=6202qrr6%230%23sorr1p583723p06268o324o2ps5n399q%23fgernzf.syhksz.qr&amsparams=playerid:streams.fluxfm.de;skey:1644355302",
+  "homepage": "",
+  "favicon": "https://www.fluxfm.de/assets/favicons/apple-icon-120x120.png",
+  "tags": [
+   "new age"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 197,
+  "codec": "MP3",
+  "bitrate": 0,
+  "hls": false,
+  "clickCount": 1,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "b7126702-9470-4eb5-99a5-11b8d00abf15",
+  "name": "Time 2 Chill Radio",
+  "streamUrl": "https://ec6.yesstreaming.net:3615/stream",
+  "homepage": "",
+  "favicon": "https://static.wixstatic.com/media/55ed4f_f43016b1c5784b71b344cd4504914340~mv2.png/v1/crop/x_0,y_342,w_1920,h_1376/fill/w_548,h_396,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/hammock-icon_edited.png",
+  "tags": [
+   "new age",
+   "downtempo"
+  ],
+  "countryCode": "",
+  "country": "The United Kingdom Of Great Britain And Northern Ireland",
+  "state": "",
+  "language": "",
+  "votes": 7,
+  "codec": "MP3",
+  "bitrate": 320,
+  "hls": false,
+  "clickCount": 1,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient",
+   "jazz"
+  ]
+ },
+ {
+  "uuid": "ead63749-c64b-43f2-b3da-fe4a454c781d",
+  "name": "Powerstation Buddha",
+  "streamUrl": "https://media2.hostin.cc/psb.mp3",
+  "homepage": "",
+  "favicon": "https://powerstationbuddha.com/wp-content/uploads/2025/05/logo-powerstation-buddha-600-1.png",
+  "tags": [
+   "new age"
+  ],
+  "countryCode": "",
+  "country": "The Netherlands",
+  "state": "",
+  "language": "",
+  "votes": 4,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 1,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "d765d8ca-992f-4d59-946a-0877c12f0f28",
+  "name": "Alswin Ambient Music",
+  "streamUrl": "https://server7.radio-streams.net/proxy/jwoiiktx/stream",
+  "homepage": "",
+  "favicon": "https://alswin.nl/favicon.ico",
+  "tags": [
+   "meditation",
+   "sleep"
+  ],
+  "countryCode": "",
+  "country": "The Netherlands",
+  "state": "",
+  "language": "",
+  "votes": 17,
+  "codec": "MP3",
+  "bitrate": 320,
+  "hls": false,
+  "clickCount": 1,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "ec0d3919-415f-4c63-9958-0da384b69ab4",
+  "name": "Aftab",
+  "streamUrl": "https://mml1.prostream.se/listen/aftab/radio.mp3",
+  "homepage": "",
+  "favicon": "https://madmix.se/images/logo.jpg",
+  "tags": [
+   "meditation"
+  ],
+  "countryCode": "",
+  "country": "Sweden",
+  "state": "",
+  "language": "",
+  "votes": 2,
+  "codec": "MP3",
+  "bitrate": 0,
+  "hls": false,
+  "clickCount": 1,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "bd6c69a2-7d98-43cb-b431-d9264c043b00",
+  "name": "Chant With Namasphere 108",
+  "streamUrl": "https://a4.asurahosting.com:8940/radio.mp3",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "meditation"
+  ],
+  "countryCode": "",
+  "country": "The United Kingdom Of Great Britain And Northern Ireland",
+  "state": "",
+  "language": "",
+  "votes": 0,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 1,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "0bd0288b-cc55-4feb-926f-766bc540c705",
+  "name": "Salt:30 Radio",
+  "streamUrl": "https://streaming.live365.com/a95708",
+  "homepage": "",
+  "favicon": "https://live365.com/favicon.ico",
+  "tags": [
+   "study"
+  ],
+  "countryCode": "",
+  "country": "The United States Of America",
+  "state": "",
+  "language": "",
+  "votes": 12,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 1,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "lofi"
+  ]
+ },
+ {
+  "uuid": "1ab99f4e-0fb9-4919-b0b0-cb0ebc8b39d1",
+  "name": "Hotmix Focus",
+  "streamUrl": "https://streaming.hotmixradio.com/hotmix-focus-en-mp3?provider=radiobrowser",
+  "homepage": "",
+  "favicon": "https://cdn.hotmixradio.com/hotmix-working-en-mp3.jpg",
+  "tags": [
+   "study"
+  ],
+  "countryCode": "",
+  "country": "France",
+  "state": "",
+  "language": "",
+  "votes": 0,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 1,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "lofi"
+  ]
+ },
+ {
+  "uuid": "fed3b0da-e61a-4b6d-8ba5-4f7b99d407a6",
+  "name": "DumDUM",
+  "streamUrl": "https://sr11.inmystream.it/proxy/dumdumradio",
+  "homepage": "",
+  "favicon": "https://www.dumdumrepublic.com/images/favicon-96x96.png",
+  "tags": [
+   "instrumental"
+  ],
+  "countryCode": "",
+  "country": "Italy",
+  "state": "",
+  "language": "",
+  "votes": 607,
+  "codec": "MP3",
+  "bitrate": 320,
+  "hls": false,
+  "clickCount": 0,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": []
+ },
+ {
+  "uuid": "4f043737-2416-11e8-91bf-52543be04c81",
+  "name": "Filmradio",
+  "streamUrl": "https://filmradio.stream.laut.fm/filmradio?t302=2018-03-10_04-44-05&uuid=59ca68e0-84a4-492d-9b0b-36c45690cd59",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "instrumental",
+   "soundtrack",
+   "film music"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 560,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 0,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": []
+ },
+ {
+  "uuid": "8459559c-4623-465e-9c2d-def8e55cbba9",
+  "name": "CHRISTMAS PIANO by Epic Piano",
+  "streamUrl": "https://stream.epic-piano.com/christmas-piano?ref=radiobrowser",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "instrumental",
+   "piano"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 286,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 0,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "98c90ccb-3a90-11e9-9b4e-52543be04c81",
+  "name": "- 1 A - Chillout von 1A Radio",
+  "streamUrl": "https://1a-chillout.radionetz.de/1a-chillout.mp3",
+  "homepage": "",
+  "favicon": "https://www.1aradio.com/logos/1a-chillout_600x600.jpg",
+  "tags": [
+   "ambient",
+   "chillout"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 522,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 0,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient",
+   "jazz"
+  ]
+ },
+ {
+  "uuid": "cf477514-6fc0-446b-adf2-d252dba5ee75",
+  "name": "Amapiano FM",
+  "streamUrl": "https://stream.zeno.fm/xs6zeac1ts8uv",
+  "homepage": "",
+  "favicon": "https://cdn.webrad.io/images/logos/radiosa-org/amapiano.png",
+  "tags": [
+   "piano"
+  ],
+  "countryCode": "",
+  "country": "South Africa",
+  "state": "",
+  "language": "",
+  "votes": 764,
+  "codec": "MP3",
+  "bitrate": 0,
+  "hls": false,
+  "clickCount": 0,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "c8bf230b-7edb-4d4e-984c-855a49d13ee1",
+  "name": "Simply Making Success Radio",
+  "streamUrl": "https://stream.zeno.fm/ylvoyhv6tbntv",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "piano"
+  ],
+  "countryCode": "",
+  "country": "South Africa",
+  "state": "",
+  "language": "",
+  "votes": 42,
+  "codec": "AAC",
+  "bitrate": 0,
+  "hls": false,
+  "clickCount": 0,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "8c80c431-8ef6-48ce-94fd-798e46bae1aa",
+  "name": "lumiRadio - 24/7 Unofficial Homestuck Radio",
+  "streamUrl": "https://audio-edge-hy4wy.blr.d.radiomast.io/abe5f558-c883-47de-91ea-e04a06ed1fd4",
+  "homepage": "",
+  "favicon": "https://lumirad.io/static/favicon-32x32.png",
+  "tags": [
+   "piano"
+  ],
+  "countryCode": "",
+  "country": "Canada",
+  "state": "",
+  "language": "",
+  "votes": 27,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 0,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "piano"
+  ]
+ },
+ {
+  "uuid": "938ba257-1ac8-49a5-bf60-eb26f0fe75ec",
+  "name": "Radio ZUM4",
+  "streamUrl": "https://streams.radiozum.md/listen/zum4/ZUM4",
+  "homepage": "",
+  "favicon": "https://res.cloudinary.com/super7/image/upload/v1698337048/rz-api-prod/images/radio_zum_4_study_work.jpg",
+  "tags": [
+   "lo-fi"
+  ],
+  "countryCode": "",
+  "country": "The Republic Of Moldova",
+  "state": "",
+  "language": "",
+  "votes": 81,
+  "codec": "AAC",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 0,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "lofi"
+  ]
+ },
+ {
+  "uuid": "3d8d6144-9270-440c-a470-8b638a55caae",
+  "name": "Low Key | NTS",
+  "streamUrl": "https://stream-mixtape-geo.ntslive.net/mixtape2",
+  "homepage": "",
+  "favicon": "https://media2.ntslive.co.uk/crop/128x128/84f68576-4bd8-40b2-a333-30a1884ef307_1626134400.png",
+  "tags": [
+   "lo-fi"
+  ],
+  "countryCode": "",
+  "country": "The United Kingdom Of Great Britain And Northern Ireland",
+  "state": "",
+  "language": "",
+  "votes": 17,
+  "codec": "MP3",
+  "bitrate": 0,
+  "hls": false,
+  "clickCount": 0,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "lofi"
+  ]
+ },
+ {
+  "uuid": "67241710-8521-4376-8844-b71345ea6b2c",
+  "name": "Strat.ai",
+  "streamUrl": "https://stream.stratinator.com/stream.mp3",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "lo-fi"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 2,
+  "codec": "MP3",
+  "bitrate": 0,
+  "hls": false,
+  "clickCount": 0,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "lofi"
+  ]
+ },
+ {
+  "uuid": "0535aa58-3be6-47d9-8b93-ac405e957f21",
+  "name": "Osage Orange Radio",
+  "streamUrl": "https://das-edge62-live365-dal03.cdnstream.com/a08442",
+  "homepage": "",
+  "favicon": "https://broadcaster.live365.com/static/assets/logos/default.jpg",
+  "tags": [
+   "lofi"
+  ],
+  "countryCode": "",
+  "country": "The United States Of America",
+  "state": "",
+  "language": "",
+  "votes": 2,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 0,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "lofi"
+  ]
+ },
+ {
+  "uuid": "2bcc90cc-55d3-4852-8644-6df52d642bef",
+  "name": "FMV FIT Radio Focus",
+  "streamUrl": "https://radio.webicdp.com/listen/fmvfitradiofocus/radio.mp3",
+  "homepage": "",
+  "favicon": "https://fmvfitradio.webicdp.com/favicon.png",
+  "tags": [
+   "lofi",
+   "chillhop",
+   "study"
+  ],
+  "countryCode": "",
+  "country": "Romania",
+  "state": "",
+  "language": "",
+  "votes": 1,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 0,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "lofi"
+  ]
+ },
+ {
+  "uuid": "557e7b85-1809-46eb-90cf-1376beedec28",
+  "name": "Steady State Radio",
+  "streamUrl": "https://radio.steadystateradio.com/listen/steady_state/radio.mp3",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "lofi"
+  ],
+  "countryCode": "",
+  "country": "Argentina",
+  "state": "",
+  "language": "",
+  "votes": 1,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 0,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "lofi"
+  ]
+ },
+ {
+  "uuid": "c6b63961-7b70-4d29-8af3-fe3dbbc4255c",
+  "name": "Slow Focus - Infinite Mixtapes | NTS",
+  "streamUrl": "https://stream-mixtape-geo.ntslive.net/mixtape",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "drone"
+  ],
+  "countryCode": "",
+  "country": "The United Kingdom Of Great Britain And Northern Ireland",
+  "state": "",
+  "language": "",
+  "votes": 14,
+  "codec": "MP3",
+  "bitrate": 0,
+  "hls": false,
+  "clickCount": 0,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "c81a32bf-7916-4c1f-9436-a1f70d87cc56",
+  "name": "CAMP Radio",
+  "streamUrl": "https://listen.camp/campradio.ogg",
+  "homepage": "",
+  "favicon": "https://favicon.im/listen.camp",
+  "tags": [
+   "drone",
+   "soundtrack",
+   "idm"
+  ],
+  "countryCode": "",
+  "country": "France",
+  "state": "",
+  "language": "",
+  "votes": 11,
+  "codec": "OGG",
+  "bitrate": 0,
+  "hls": false,
+  "clickCount": 0,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "ea537888-17c8-461b-b41b-5e9cee913e44",
+  "name": "Substrate Radio",
+  "streamUrl": "https://cast4.asurahosting.com/proxy/jason126/stream",
+  "homepage": "",
+  "favicon": "https://substrateradio.com/wp-content/uploads/2017/01/Logo2.png",
+  "tags": [
+   "drone"
+  ],
+  "countryCode": "",
+  "country": "The United States Of America",
+  "state": "",
+  "language": "",
+  "votes": 10,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 0,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "7440fcf1-71da-47bf-bf13-f80c10eab97b",
+  "name": "Classicnl Mind Radio",
+  "streamUrl": "https://classic.nl/streams/?s=mindradio",
+  "homepage": "",
+  "favicon": "https://classic.nl/images/icons/favicon-96x96.png",
+  "tags": [
+   "new age"
+  ],
+  "countryCode": "",
+  "country": "The Netherlands",
+  "state": "",
+  "language": "",
+  "votes": 72,
+  "codec": "MP3",
+  "bitrate": 256,
+  "hls": false,
+  "clickCount": 0,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "9d8cf601-dc3c-49be-89c2-019ec28726a9",
+  "name": "Republic 100.3",
+  "streamUrl": "https://netradio.live24.gr/republicthess",
+  "homepage": "",
+  "favicon": "https://resources.live24.gr/resources/images/stations/548cc5b1-bf78-4b02-8f88-54af327d9916.png",
+  "tags": [
+   "new age"
+  ],
+  "countryCode": "",
+  "country": "Greece",
+  "state": "",
+  "language": "",
+  "votes": 16,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 0,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "f2847b14-8a7b-4f93-a381-99628ee723ef",
+  "name": "lifegate",
+  "streamUrl": "https://stream2.xdevel.com/audio0s975809-423/stream/icecast.audio",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "new age"
+  ],
+  "countryCode": "",
+  "country": "Italy",
+  "state": "",
+  "language": "",
+  "votes": 13,
+  "codec": "MP3",
+  "bitrate": 0,
+  "hls": false,
+  "clickCount": 0,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "8a6c3d9a-1203-45c9-800b-435789d9c616",
+  "name": "Dreamvisions 7 Radio",
+  "streamUrl": "https://ice64.securenetsystems.net/DREAM7",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "new age"
+  ],
+  "countryCode": "",
+  "country": "The United States Of America",
+  "state": "",
+  "language": "",
+  "votes": 11,
+  "codec": "AAC",
+  "bitrate": 32,
+  "hls": false,
+  "clickCount": 0,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "3ebdeaad-c8fd-4e11-bbb6-92c0a9ff8133",
+  "name": "RRR 89.5 FM",
+  "streamUrl": "https://live.zuperdns.net/8950/stream/;stream.mp3?nochache=0.7584312150692858",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "new age"
+  ],
+  "countryCode": "",
+  "country": "Mexico",
+  "state": "",
+  "language": "",
+  "votes": 3,
+  "codec": "MP3",
+  "bitrate": 40,
+  "hls": false,
+  "clickCount": 0,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "ffc8d7d5-7244-4738-bfee-22fcf0340edf",
+  "name": "Harmony Frequencies",
+  "streamUrl": "https://mml2.prostream.se/listen/harmony_frequencies_radio/radio.mp3",
+  "homepage": "",
+  "favicon": "https://madmix.se/images/logo.jpg",
+  "tags": [
+   "new age",
+   "meditation"
+  ],
+  "countryCode": "",
+  "country": "Sweden",
+  "state": "",
+  "language": "",
+  "votes": 2,
+  "codec": "MP3",
+  "bitrate": 0,
+  "hls": false,
+  "clickCount": 0,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "2193e96b-8dc9-4171-acc3-0cbe15fea9c8",
+  "name": "Extreme Exposure Radio",
+  "streamUrl": "https://stream.zeno.fm/1tv2wfr01zquv",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "new age"
+  ],
+  "countryCode": "",
+  "country": "The United States Of America",
+  "state": "",
+  "language": "",
+  "votes": 2,
+  "codec": "MP3",
+  "bitrate": 0,
+  "hls": false,
+  "clickCount": 0,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "9795c59e-5e49-41d1-87c6-f8f50bba90ca",
+  "name": "DREAMER",
+  "streamUrl": "https://cast1.asurahosting.com/proxy/ermis/stream",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "new age"
+  ],
+  "countryCode": "",
+  "country": "Greece",
+  "state": "",
+  "language": "",
+  "votes": 0,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 0,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "4ba92d81-a5db-419f-9489-2f166ad5fe3f",
+  "name": "DREAMER RADIO",
+  "streamUrl": "https://cast1.asurahosting.com/proxy/ermis/stream",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "new age"
+  ],
+  "countryCode": "",
+  "country": "Greece",
+  "state": "",
+  "language": "",
+  "votes": 0,
+  "codec": "MP3",
+  "bitrate": 192,
+  "hls": false,
+  "clickCount": 0,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "141934c9-1bea-11ea-a955-52543be04c81",
+  "name": "Nature Mountain Radio (Live365)",
+  "streamUrl": "https://streaming.live365.com/a51903",
+  "homepage": "",
+  "favicon": "https://live365.com/favicon.ico",
+  "tags": [
+   "meditation"
+  ],
+  "countryCode": "",
+  "country": "",
+  "state": "",
+  "language": "",
+  "votes": 267,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 0,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "05714870-2b6d-4abd-9b46-55444b584af4",
+  "name": "Radio SinPatrones (Valle de Tambo)",
+  "streamUrl": "https://panelautodj.innovatestream.pe:10685/",
+  "homepage": "",
+  "favicon": "https://radiosinpatrones.com/wp-content/uploads/2024/11/cropped-logo-192x192.png",
+  "tags": [
+   "meditation"
+  ],
+  "countryCode": "",
+  "country": "Peru",
+  "state": "",
+  "language": "",
+  "votes": 15,
+  "codec": "MP3",
+  "bitrate": 64,
+  "hls": false,
+  "clickCount": 0,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "8e73bd64-3fc8-4e69-bc5a-fbf2c7626612",
+  "name": "Ayurveda Lounge",
+  "streamUrl": "https://stream.laut.fm/ayurveda-lounge",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "meditation"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 4,
+  "codec": "MP3",
+  "bitrate": 128,
+  "hls": false,
+  "clickCount": 0,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "e693045f-01e6-48d4-9b44-4dc7435eede5",
+  "name": "RadioAgonshu",
+  "streamUrl": "https://stream10.vestaradio.com/RadioAgonshu",
+  "homepage": "",
+  "favicon": "https://studio10.vestaradio.com/uploads/user-music/1748/covers/cover_1748_1782679287_a66968.jpg",
+  "tags": [
+   "meditation"
+  ],
+  "countryCode": "",
+  "country": "Coted Ivoire",
+  "state": "",
+  "language": "",
+  "votes": 4,
+  "codec": "MP3",
+  "bitrate": 320,
+  "hls": false,
+  "clickCount": 0,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "5b0384ad-bde9-4828-aefd-4a4884d87ddf",
+  "name": "Classic Country Legends Radio",
+  "streamUrl": "https://stream-178.surfernetwork.com/wf3w5y2rjdhvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ3ZjN3NXkycmpkaHZ2IiwiaG9zdCI6InN0cmVhbS0xNzguc3VyZmVybmV0d29yay5jb20iLCJydHRsIjo1LCJqdGkiOiJFM1FWVGQ4eVNmdXBlbWRuSllHa2pnIiwiaWF0IjoxNzg1MTczMjEzLCJleHAiOjE3ODUxNzMyNzN9.dPM3C02OEnU6dj4DHGiC4_0QK07CO86tjQlDOYWARj8",
+  "homepage": "",
+  "favicon": "https://classiccountrylegendsradio.neocities.org/android-chrome-192x192.png",
+  "tags": [
+   "study"
+  ],
+  "countryCode": "",
+  "country": "The United States Of America",
+  "state": "",
+  "language": "",
+  "votes": 2,
+  "codec": "MP3",
+  "bitrate": 0,
+  "hls": false,
+  "clickCount": 0,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "lofi"
+  ]
+ },
+ {
+  "uuid": "108a36e8-75b9-4b4d-8893-1ea2bda3d0fa",
+  "name": "Calm N Chill Radio",
+  "streamUrl": "https://stream.zeno.fm/yvcddifycietv",
+  "homepage": "",
+  "favicon": "https://cloud-4shg5daq1-hack-club-bot.vercel.app/0calm_n_chill_radio_logo.png",
+  "tags": [
+   "sleep"
+  ],
+  "countryCode": "",
+  "country": "The United Kingdom Of Great Britain And Northern Ireland",
+  "state": "",
+  "language": "",
+  "votes": 96,
+  "codec": "MP3",
+  "bitrate": 0,
+  "hls": false,
+  "clickCount": 0,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "a7005d8f-5635-4b5b-a78b-f08c81cedb38",
+  "name": "FluxFM traumerei | 64k MP3",
+  "streamUrl": "https://fluxmusic.api.radiosphere.io/channels/traumerei/stream.mp3?quality=1",
+  "homepage": "",
+  "favicon": "https://fluxmusic.cdn.radiosphere.io/images/693e0010-1272-49e4-85f0-c56e3df0d3cd_1761225576?type=large",
+  "tags": [
+   "sleep"
+  ],
+  "countryCode": "",
+  "country": "Germany",
+  "state": "",
+  "language": "",
+  "votes": 3,
+  "codec": "MP3",
+  "bitrate": 0,
+  "hls": false,
+  "clickCount": 0,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient"
+  ]
+ },
+ {
+  "uuid": "1a267e2e-69db-4fd8-ab27-cca867bbe59f",
+  "name": "Dirty Radio for Underworld Fans",
+  "streamUrl": "https://live.dirty.radio/stream",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "idm"
+  ],
+  "countryCode": "",
+  "country": "The United Kingdom Of Great Britain And Northern Ireland",
+  "state": "",
+  "language": "",
+  "votes": 36,
+  "codec": "AAC",
+  "bitrate": 64,
+  "hls": false,
+  "clickCount": 0,
+  "clickTrend": 0,
+  "geoLat": null,
+  "geoLong": null,
+  "tier": "solid",
+  "flavours": [
+   "ambient"
+  ]
+ }
+]
