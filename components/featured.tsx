@@ -9,7 +9,7 @@ import { StationFavicon } from "./station-favicon";
 // works from day one; our own live counts join it (clearly separated) once
 // the community layer ships. Never blend the two.
 export function Featured() {
-  const { data } = useQuery({
+  const { data, isPending } = useQuery({
     queryKey: ["featured"],
     queryFn: async () => {
       const res = await fetch("/api/stations?order=clicktrend&limit=60");
@@ -20,6 +20,24 @@ export function Featured() {
   });
   const play = usePlayerStore((s) => s.play);
   const activeUuid = usePlayerStore((s) => s.station?.uuid);
+
+  // Reserve the section's exact footprint while loading so the page below
+  // never shifts when the tiles arrive (this was the whole CLS budget).
+  if (isPending) {
+    return (
+      <section aria-hidden className="px-6 pt-8 sm:px-10">
+        <div className="mb-4 h-4 w-40 rounded-full bg-surface/70" />
+        <div className="grid grid-cols-3 gap-4 sm:grid-cols-4 lg:grid-cols-6">
+          {Array.from({ length: 12 }, (_, i) => i).map((i) => (
+            <div key={i} className="min-w-0">
+              <div className="aspect-square w-full rounded-xl bg-surface/60" />
+              <div className="mt-2.5 h-[38px]" />
+            </div>
+          ))}
+        </div>
+      </section>
+    );
+  }
 
   if (!data || data.length === 0) return null;
   // Artwork carries the section — prefer stations that actually have some.

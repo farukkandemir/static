@@ -54,7 +54,17 @@
       "PowerShell($root = \\(Invoke-WebRequest \"http://localhost:3000/\" -UseBasicParsing -TimeoutSec 60\\).Content; \"root has filters: $\\($root.Contains\\('All genres'\\)\\)\"; \"root has Popular: $\\($root.Contains\\('Popular this week'\\)\\)\"; $f = \\(Invoke-WebRequest \"http://localhost:3000/focus\" -UseBasicParsing -TimeoutSec 60\\).Content; \"focus has catalog: $\\($f.Contains\\('SomaFM'\\)\\)\"; try { $b = Invoke-WebRequest \"http://localhost:3000/browse\" -UseBasicParsing -TimeoutSec 60 -MaximumRedirection 0 } catch { \"browse redirect status: $\\($_.Exception.Response.StatusCode.value__\\) -> $\\($_.Exception.Response.Headers['Location']\\)\" })",
       "Bash(curl -s -o /dev/null -w \"%{http_code} -> %{redirect_url}\\\\n\" http://localhost:3000/browse)",
       "Bash(curl -s -o /dev/null -w \"root: %{http_code}\\\\n\" http://localhost:3000/)",
-      "Bash(curl -s -o /dev/null -w \"focus: %{http_code}\\\\n\" http://localhost:3000/focus)"
+      "Bash(curl -s -o /dev/null -w \"focus: %{http_code}\\\\n\" http://localhost:3000/focus)",
+      "Bash(curl -s -o /dev/null -w 'root: %{http_code} \\(%{time_total}s\\)\\\\n' https://static-two-omega.vercel.app/)",
+      "Bash(curl -s -o /dev/null -w 'focus: %{http_code} \\(%{time_total}s\\)\\\\n' https://static-two-omega.vercel.app/focus)",
+      "Bash(curl -s -o /dev/null -w 'browse redirect: %{http_code} -> %{redirect_url}\\\\n' https://static-two-omega.vercel.app/browse)",
+      "Bash(curl -s -o /dev/null -w 'favourites: %{http_code}\\\\n' https://static-two-omega.vercel.app/favourites)",
+      "Bash(curl -sI https://static-two-omega.vercel.app/api/focus)",
+      "Bash(curl -s \"https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=https%3A%2F%2Fstatic-two-omega.vercel.app%2F&category=performance&category=accessibility&strategy=desktop\")",
+      "Bash(node -e \"let d='';process.stdin.on\\('data',c=>d+=c\\).on\\('end',\\(\\)=>{try{const j=JSON.parse\\(d\\);const c=j.lighthouseResult.categories;const a=j.lighthouseResult.audits;console.log\\('performance:',Math.round\\(c.performance.score*100\\)\\);console.log\\('accessibility:',Math.round\\(c.accessibility.score*100\\)\\);console.log\\('FCP:',a['first-contentful-paint'].displayValue\\);console.log\\('LCP:',a['largest-contentful-paint'].displayValue\\);console.log\\('TBT:',a['total-blocking-time'].displayValue\\);console.log\\('CLS:',a['cumulative-layout-shift'].displayValue\\);}catch\\(e\\){console.log\\('parse failed:',d.slice\\(0,300\\)\\)}}\\)\")",
+      "Bash(npx --yes lighthouse https://static-two-omega.vercel.app/ --only-categories=performance,accessibility --preset=desktop --quiet --chrome-flags=\"--headless=new\" --output=json --output-path=stdout)",
+      "Bash(node -e \"let d='';process.stdin.on\\('data',c=>d+=c\\).on\\('end',\\(\\)=>{try{const j=JSON.parse\\(d\\);const c=j.categories;const a=j.audits;console.log\\('performance:',Math.round\\(c.performance.score*100\\)\\);console.log\\('accessibility:',Math.round\\(c.accessibility.score*100\\)\\);console.log\\('FCP:',a['first-contentful-paint'].displayValue\\);console.log\\('LCP:',a['largest-contentful-paint'].displayValue\\);console.log\\('TBT:',a['total-blocking-time'].displayValue\\);console.log\\('CLS:',a['cumulative-layout-shift'].displayValue\\);}catch\\(e\\){console.log\\('failed', e.message\\)}}\\)\")",
+      "PowerShell(npx tsc --noEmit; \"tsc: $LASTEXITCODE\"; npx biome check --write . 2>&1 | Select-Object -Last 2; pnpm build 2>&1 | Select-Object -Last 3)"
     ]
   }
 }
