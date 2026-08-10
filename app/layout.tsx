@@ -8,8 +8,22 @@ const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://staticfm.vercel.app"),
   title: "staticfm — internet radio",
-  description: "Listen to internet radio from anywhere in the world.",
+  description:
+    "Internet radio for getting things done. Live stations from all over the world, with a curated instrumental Focus section for working.",
+  openGraph: {
+    title: "staticfm",
+    description: "Internet radio for getting things done.",
+    url: "https://staticfm.vercel.app",
+    siteName: "staticfm",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "staticfm",
+    description: "Internet radio for getting things done.",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

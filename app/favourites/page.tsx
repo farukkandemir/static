@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { Suspense, useEffect } from "react";
 import { EmptyLibrary } from "@/components/empty-library";
@@ -18,7 +18,7 @@ function FavouritesPage() {
   }
   return (
     <section aria-label="Stations" className="pt-7">
-      <div className="mb-2 flex items-baseline justify-between px-9 sm:px-13">
+      <div className="mb-2 flex items-baseline justify-between px-6 sm:px-13">
         <h2 className="text-xs font-medium uppercase tracking-[0.18em] text-faint">Favourites</h2>
         <span className="font-mono text-xs tabular-nums text-faint">{favourites.length}</span>
       </div>

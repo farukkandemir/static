@@ -130,7 +130,7 @@ export function StationList({
   };
 
   return (
-    <div className="px-6 sm:px-10">
+    <div className="px-3 sm:px-10">
       <ul>
         {pageItems.map((s) => (
           <StationRow

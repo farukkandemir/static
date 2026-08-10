@@ -262,7 +262,7 @@ export function filterStations(
   return out;
 }
 
-export async function searchStations(params: StationSearchParams): Promise<Station[]> {
+function buildSearchQs(params: StationSearchParams, override?: { name?: string; tag?: string }) {
   const qs = new URLSearchParams({
     hidebroken: "true",
     order: params.order ?? "clickcount",
@@ -270,13 +270,52 @@ export async function searchStations(params: StationSearchParams): Promise<Stati
     limit: String(params.limit ?? 400),
   });
   if (params.offset) qs.set("offset", String(params.offset));
-  if (params.name) qs.set("name", params.name);
+  if (override?.name ?? params.name) qs.set("name", override?.name ?? params.name ?? "");
+  if (override?.tag) qs.set("tag", override.tag);
   if (params.tagList) qs.set("tagList", params.tagList);
   if (params.countrycode) qs.set("countrycode", params.countrycode);
   if (params.language) qs.set("language", params.language);
   if (params.bitrateMin) qs.set("bitrateMin", String(params.bitrateMin));
+  return qs.toString();
+}
+
+const ORDER_FIELD: Record<string, keyof RadioBrowserStation> = {
+  clickcount: "clickcount",
+  clicktrend: "clicktrend",
+  votes: "votes",
+  bitrate: "bitrate",
+};
+
+export async function searchStations(params: StationSearchParams): Promise<Station[]> {
+  // A free-text query should find genres too: "techno" means techno stations,
+  // not just stations named techno. Run name and tag searches in parallel
+  // (both cached) and merge, name matches first among equals.
+  if (params.name && !params.tagList) {
+    const [byName, byTag] = await Promise.all([
+      rbFetch<RadioBrowserStation[]>(`/json/stations/search?${buildSearchQs(params)}`, 300),
+      rbFetch<RadioBrowserStation[]>(
+        `/json/stations/search?${buildSearchQs({ ...params, name: undefined }, { tag: params.name })}`,
+        300,
+      ).catch(() => [] as RadioBrowserStation[]),
+    ]);
+    const seen = new Set<string>();
+    const merged: RadioBrowserStation[] = [];
+    for (const s of [...byName, ...byTag]) {
+      if (seen.has(s.stationuuid)) continue;
+      seen.add(s.stationuuid);
+      merged.push(s);
+    }
+    const field = ORDER_FIELD[params.order ?? "clickcount"];
+    if (field) {
+      merged.sort((a, b) => (b[field] as number) - (a[field] as number));
+    } else if (params.order === "name") {
+      merged.sort((a, b) => a.name.localeCompare(b.name));
+    }
+    return filterStations(merged);
+  }
+
   const raw = await rbFetch<RadioBrowserStation[]>(
-    `/json/stations/search?${qs.toString()}`,
+    `/json/stations/search?${buildSearchQs(params)}`,
     300, // search results: 5 minutes
   );
   return filterStations(raw);

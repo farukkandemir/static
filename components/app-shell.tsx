@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { Suspense, useCallback, useEffect, useState } from "react";
 import { CommandPalette } from "@/components/command-palette";
-import { LibraryMenu } from "@/components/library-menu";
+// import { LibraryMenu } from "@/components/library-menu";
 import { PlayerBar } from "@/components/player-bar";
 import { ShortcutsHelp } from "@/components/shortcuts-help";
 import { useLibraryStore } from "@/lib/library-store";
@@ -46,7 +46,7 @@ function HeaderSearch() {
   }, [value, urlQ, pathname, searchParams, router]);
 
   return (
-    <div className="relative hidden sm:block">
+    <div className="relative">
       <svg
         aria-hidden="true"
         width="13"
@@ -60,11 +60,21 @@ function HeaderSearch() {
       <input
         id="station-search"
         type="search"
-        placeholder="Search stations"
+        placeholder="Search stations or genres"
         value={value}
         onChange={(e) => setValue(e.target.value)}
-        className="h-10 w-64 rounded-full border border-edge bg-surface pl-9 pr-4 text-[13px] transition-colors placeholder:text-faint hover:border-faint/50 focus:border-faint"
+        className="h-10 w-44 rounded-full border border-edge bg-surface pl-9 pr-8 text-[13px] transition-colors placeholder:text-faint hover:border-faint/50 focus:border-faint sm:w-64 [&::-webkit-search-cancel-button]:hidden"
       />
+      {value && (
+        <button
+          type="button"
+          aria-label="Clear search"
+          onClick={() => setValue("")}
+          className="absolute right-2 top-1/2 flex h-6 w-6 -translate-y-1/2 items-center justify-center rounded-full text-faint transition-colors hover:text-ink"
+        >
+          ×
+        </button>
+      )}
     </div>
   );
 }
@@ -108,11 +118,16 @@ export function AppShell({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex min-h-dvh flex-col">
       <header className="sticky top-0 z-30 bg-bg/90 backdrop-blur-xl">
-        <div className="mx-auto flex h-16 max-w-screen-2xl items-center gap-5 border-b border-edge/60 px-6 sm:px-10">
+        {/* One row on desktop; on phones the tabs drop to a second,
+            horizontally scrollable line and search stays beside the logo. */}
+        <div className="mx-auto flex max-w-screen-2xl flex-wrap items-center gap-x-5 gap-y-1.5 border-b border-edge/60 px-4 py-2.5 sm:h-16 sm:flex-nowrap sm:px-10 sm:py-0">
           <Link href="/" className="text-xl font-semibold tracking-tight">
             static<span className="text-accent">fm.</span>
           </Link>
-          <nav aria-label="Views" className="flex gap-1">
+          <nav
+            aria-label="Views"
+            className="order-3 -mx-1 flex w-full gap-1 overflow-x-auto px-1 [scrollbar-width:none] sm:order-none sm:mx-0 sm:w-auto sm:overflow-visible sm:px-0"
+          >
             {TABS.map((t) => {
               const active = pathname === t.href;
               return (
@@ -120,7 +135,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
                   key={t.href}
                   href={t.href}
                   aria-current={active ? "page" : undefined}
-                  className={`flex h-9 items-center rounded-full px-4 text-[13px] font-medium transition-colors ${
+                  className={`flex h-9 shrink-0 items-center whitespace-nowrap rounded-full px-3.5 text-[13px] font-medium transition-colors sm:px-4 ${
                     active ? "bg-raised text-ink" : "text-faint hover:text-ink"
                   }`}
                 >
@@ -132,13 +147,15 @@ export function AppShell({ children }: { children: React.ReactNode }) {
               );
             })}
           </nav>
-          <div className="ml-auto flex items-center gap-3">
+          <div className="order-2 ml-auto flex items-center gap-3 sm:order-none">
             <Suspense fallback={null}>
               <HeaderSearch />
             </Suspense>
+            {/* Library export/import parked for now — bring back when someone
+                actually asks for portability.
             <div className="hidden md:block">
               <LibraryMenu />
-            </div>
+            </div> */}
           </div>
         </div>
       </header>

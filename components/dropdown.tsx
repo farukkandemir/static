@@ -85,7 +85,7 @@ export function Dropdown({
       </button>
 
       {open && (
-        <div className="absolute left-0 top-full z-40 mt-2 w-64 overflow-hidden rounded-2xl border border-edge bg-raised shadow-2xl shadow-black/40">
+        <div className="absolute left-0 top-full z-40 mt-2 w-64 max-w-[calc(100vw-3rem)] overflow-hidden rounded-2xl border border-edge bg-raised shadow-2xl shadow-black/40">
           {searchable && (
             <input
               ref={searchRef}

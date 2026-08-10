@@ -75,7 +75,7 @@ export function PlayerBar() {
           </button>
         </div>
       )}
-      <div className="mx-auto grid h-[5.5rem] max-w-screen-2xl grid-cols-[1fr_auto_1fr] items-center gap-4 px-6 sm:px-10">
+      <div className="mx-auto grid h-[5.5rem] max-w-screen-2xl grid-cols-[1fr_auto] items-center gap-3 px-4 sm:px-10 md:grid-cols-[1fr_auto_1fr] md:gap-4">
         {/* Now playing */}
         <div className="flex min-w-0 items-center gap-4">
           {station && <StationFavicon name={station.name} url={station.favicon} size={56} />}

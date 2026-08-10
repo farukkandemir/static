@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import type { FocusFlavour, FocusStation } from "@/lib/focus";
 import { FLAVOURS } from "@/lib/focus";
@@ -63,7 +63,7 @@ export function FocusView({
       )}
       {stations && stations.length > 0 && (
         <section aria-label="Stations" className="pt-7">
-          <div className="mb-2 flex items-baseline justify-between px-9 sm:px-13">
+          <div className="mb-2 flex items-baseline justify-between px-6 sm:px-13">
             <h2 className="text-xs font-medium uppercase tracking-[0.18em] text-faint">
               {flavour ? FLAVOURS.find((f) => f.key === flavour)?.label : "Everything"}
             </h2>

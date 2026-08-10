@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { Suspense, useEffect } from "react";
 import { Featured } from "@/components/featured";
@@ -25,7 +25,7 @@ function BrowsePage() {
     order: (ORDERS.has(rawSort) ? rawSort : "clickcount") as StationFilters["order"],
   };
 
-  const { data: stations, isLoading, isError } = useStations(filters);
+  const { data: stations, isLoading, isError, isFetching } = useStations(filters);
   const setStations = useViewStore((s) => s.setStations);
   useEffect(() => setStations(stations ?? []), [stations, setStations]);
 
@@ -72,16 +72,24 @@ function BrowsePage() {
       )}
       {stations && stations.length === 0 && (
         <p className="px-6 py-10 text-[15px] text-faint sm:px-10">
-          No stations match. Loosen a filter.
+          {filters.q.trim()
+            ? `Nothing for “${filters.q.trim()}”. Try a station name, a genre, or a country.`
+            : "No stations match. Loosen a filter."}
         </p>
       )}
       {stations && stations.length > 0 && (
         <section aria-label="Stations" className="pt-7">
-          <div className="mb-2 flex items-baseline justify-between px-9 sm:px-13">
-            <h2 className="text-xs font-medium uppercase tracking-[0.18em] text-faint">
-              {isDefaultBrowse ? "Top stations" : "Results"}
+          <div className="mb-2 flex items-baseline justify-between gap-4 px-6 sm:px-13">
+            <h2 className="min-w-0 truncate text-xs font-medium uppercase tracking-[0.18em] text-faint">
+              {isDefaultBrowse
+                ? "Top stations"
+                : filters.q.trim()
+                  ? `Results for “${filters.q.trim()}”`
+                  : "Results"}
             </h2>
-            <span className="font-mono text-xs tabular-nums text-faint">{stations.length}</span>
+            <span className="shrink-0 font-mono text-xs tabular-nums text-faint">
+              {isFetching ? "searching…" : stations.length}
+            </span>
           </div>
           <StationList stations={stations} page={page} onPageChange={setPage} />
         </section>
