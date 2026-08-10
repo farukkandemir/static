@@ -4,15 +4,6 @@ import type { FocusFlavour, FocusStation } from "@/lib/focus";
 import { FLAVOURS } from "@/lib/focus";
 import { StationList } from "./station-list";
 
-// Flavour tints, in the band style: quiet gradients, amber edge when active.
-const TINTS: Record<string, string> = {
-  "": "linear-gradient(150deg, #26262e, #131318 65%)",
-  ambient: "linear-gradient(150deg, #14312c, #0a1513 65%)",
-  piano: "linear-gradient(150deg, #2a2440, #131020 65%)",
-  lofi: "linear-gradient(150deg, #33241a, #170f0a 65%)",
-  jazz: "linear-gradient(150deg, #3d2817, #170e08 65%)",
-};
-
 export function FocusView({
   flavour,
   onFlavourChange,
@@ -30,15 +21,14 @@ export function FocusView({
   page?: number;
   onPageChange?: (page: number) => void;
 }) {
-
   return (
     <div>
       <div className="px-6 pt-7 sm:px-10">
         <p className="max-w-xl text-[15px] leading-relaxed text-faint">
-          Music without words. Every stream here is instrumental by format —
-          curated and checked, made for working.
+          Music without words — curated instrumental stations, made for working.
         </p>
-        <div className="mt-5 grid grid-cols-2 gap-2.5 sm:grid-cols-5" role="tablist" aria-label="Focus flavours">
+        {/* Same pill language as the header tabs and browse filters. */}
+        <div className="mt-5 flex flex-wrap gap-2" role="tablist" aria-label="Focus flavours">
           {FLAVOURS.map((f) => {
             const active = f.key === flavour;
             return (
@@ -48,16 +38,13 @@ export function FocusView({
                 role="tab"
                 aria-selected={active}
                 onClick={() => onFlavourChange(f.key)}
-                className={`relative flex h-[4.5rem] flex-col justify-end overflow-hidden rounded-2xl border p-3 text-left transition-colors ${
-                  active ? "border-accent" : "border-edge hover:border-faint/50"
+                className={`h-10 rounded-full border px-4 text-[13px] transition-colors ${
+                  active
+                    ? "border-faint/50 bg-raised font-medium text-ink"
+                    : "border-edge bg-surface text-faint hover:border-faint/50 hover:text-ink"
                 }`}
-                style={{ background: TINTS[f.key] }}
               >
-                {active && (
-                  <span className="absolute right-2.5 top-2 text-[8px] text-accent">●</span>
-                )}
-                <span className="text-[13.5px] font-semibold leading-tight">{f.label}</span>
-                <span className="text-[10.5px] text-faint">{f.blurb}</span>
+                {f.label}
               </button>
             );
           })}
