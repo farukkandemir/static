@@ -35,7 +35,10 @@ export function Dropdown({
   useEffect(() => {
     if (!open) return;
     setQuery("");
-    requestAnimationFrame(() => searchRef.current?.focus());
+    // Autofocus only where it doesn't summon an on-screen keyboard.
+    if (window.matchMedia("(min-width: 640px)").matches) {
+      requestAnimationFrame(() => searchRef.current?.focus());
+    }
     const onDown = (e: MouseEvent) => {
       if (!rootRef.current?.contains(e.target as Node)) setOpen(false);
     };
@@ -85,7 +88,17 @@ export function Dropdown({
       </button>
 
       {open && (
-        <div className="absolute left-0 top-full z-40 mt-2 w-64 max-w-[calc(100vw-3rem)] overflow-hidden rounded-2xl border border-edge bg-raised shadow-2xl shadow-black/40">
+        // Mobile: a bottom sheet — it can't overflow the viewport, so opening
+        // a filter never shifts the page. Desktop: the anchored popover.
+        <>
+          <button
+            type="button"
+            aria-label="Close"
+            onClick={() => setOpen(false)}
+            className="fixed inset-0 z-40 cursor-default bg-black/45 sm:hidden"
+          />
+          <div className="fixed inset-x-0 bottom-0 z-50 overflow-hidden rounded-t-2xl border-t border-edge bg-raised pb-[env(safe-area-inset-bottom)] shadow-2xl shadow-black/40 sm:absolute sm:inset-x-auto sm:bottom-auto sm:left-0 sm:top-full sm:z-40 sm:mt-2 sm:w-64 sm:rounded-2xl sm:border sm:pb-0">
+            <div className="mx-auto mt-2.5 h-1 w-9 rounded-full bg-edge sm:hidden" />
           {searchable && (
             <input
               ref={searchRef}
@@ -95,7 +108,7 @@ export function Dropdown({
               className="w-full border-b border-edge bg-transparent px-4 py-2.5 text-[13px] outline-none placeholder:text-faint"
             />
           )}
-          <ul role="listbox" aria-label={label} className="max-h-72 overflow-y-auto py-1.5">
+          <ul role="listbox" aria-label={label} className="max-h-[55dvh] overflow-y-auto py-1.5 sm:max-h-72">
             {visible.length === 0 && (
               <li className="px-4 py-2.5 text-[13px] text-faint">No matches.</li>
             )}
@@ -131,7 +144,8 @@ export function Dropdown({
               );
             })}
           </ul>
-        </div>
+          </div>
+        </>
       )}
     </div>
   );
