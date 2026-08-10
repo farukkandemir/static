@@ -1,6 +1,7 @@
 "use client";
 
 import { Suspense, useEffect } from "react";
+import { EmptyLibrary } from "@/components/empty-library";
 import { StationList } from "@/components/station-list";
 import { useLibraryStore } from "@/lib/library-store";
 import { usePageParam } from "@/lib/use-url-state";
@@ -13,7 +14,7 @@ function RecentsPage() {
   useEffect(() => setStations(recents), [recents, setStations]);
 
   if (recents.length === 0) {
-    return <p className="px-6 py-10 text-[15px] text-faint sm:px-10">Nothing played yet.</p>;
+    return <EmptyLibrary kind="recents" />;
   }
   return (
     <section aria-label="Stations" className="pt-7">

@@ -1,6 +1,7 @@
 "use client";
 
 import { Suspense, useEffect } from "react";
+import { EmptyLibrary } from "@/components/empty-library";
 import { StationList } from "@/components/station-list";
 import { useLibraryStore } from "@/lib/library-store";
 import { usePageParam } from "@/lib/use-url-state";
@@ -13,11 +14,7 @@ function FavouritesPage() {
   useEffect(() => setStations(favourites), [favourites, setStations]);
 
   if (favourites.length === 0) {
-    return (
-      <p className="px-6 py-10 text-[15px] text-faint sm:px-10">
-        No favourites yet — hit ☆ on any station, or F while listening.
-      </p>
-    );
+    return <EmptyLibrary kind="favourites" />;
   }
   return (
     <section aria-label="Stations" className="pt-7">

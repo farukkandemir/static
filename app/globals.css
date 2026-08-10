@@ -67,6 +67,14 @@ label:has(> input[type="range"]) {
   outline-offset: 2px;
 }
 
+/* Text fields signal focus with their border, not the amber ring — browsers
+   apply :focus-visible to inputs even on mouse click, and the 2px accent
+   outline reads far too heavy on a text box you click into constantly. */
+input[type="search"]:focus-visible,
+input[type="text"]:focus-visible {
+  outline: none;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;

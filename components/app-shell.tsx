@@ -62,7 +62,7 @@ function HeaderSearch() {
         placeholder="Search stations"
         value={value}
         onChange={(e) => setValue(e.target.value)}
-        className="h-10 w-52 rounded-full border border-edge bg-surface pl-9 pr-4 text-[13px] transition-all placeholder:text-faint hover:border-faint/50 focus:w-72 focus:border-faint/60"
+        className="h-10 w-64 rounded-full border border-edge bg-surface pl-9 pr-4 text-[13px] transition-colors placeholder:text-faint hover:border-faint/50 focus:border-faint"
       />
     </div>
   );
