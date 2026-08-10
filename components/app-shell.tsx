@@ -110,7 +110,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
       <header className="sticky top-0 z-30 bg-bg/90 backdrop-blur-xl">
         <div className="mx-auto flex h-16 max-w-screen-2xl items-center gap-5 border-b border-edge/60 px-6 sm:px-10">
           <Link href="/" className="text-xl font-semibold tracking-tight">
-            static<span className="text-accent">.</span>
+            static<span className="text-accent">fm.</span>
           </Link>
           <nav aria-label="Views" className="flex gap-1">
             {TABS.map((t) => {

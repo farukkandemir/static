@@ -1,10 +1,10 @@
-# static
+# staticfm
 
 Internet radio for getting things done.
 
-Static plays live stations from all over the world, with a Focus section of instrumental music curated for working. Every stream in Focus was checked by hand. If a station dies mid song, the app quietly skips to the next one that works.
+staticfm plays live stations from all over the world, with a Focus section of instrumental music curated for working. Every stream in Focus was checked by hand. If a station dies mid song, the app quietly skips to the next one that works.
 
-Station data comes from [Radio Browser](https://www.radio-browser.info), a community run directory. Static filters it down to stations that actually play, and plays music only.
+Station data comes from [Radio Browser](https://www.radio-browser.info), a community run directory. staticfm filters it down to stations that actually play, and plays music only.
 
 ## Running it
 
