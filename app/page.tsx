@@ -29,18 +29,42 @@ function BrowsePage() {
   const { data: remote, isLoading, isError, isFetching } = useStations(filters);
   const { data: index } = useSearchIndex();
 
-  // Search-as-you-type: with a plain text query (no other filters), results
-  // come instantly from the local index; the directory search runs behind it
-  // and appends anything the index didn't know. With other filters active,
-  // combinations are the server's job.
+  // Every filter change answers instantly from the local index (search rank,
+  // genre, country, sort), while the directory query completes behind it.
+  // When the directory answers, its complete result takes over; while it's
+  // in flight its data belongs to the previous filters — never shown.
+  // Language isn't in the slim index, so that one filter stays server-only.
   const q = filters.q.trim();
-  const localMode = Boolean(q) && !filters.tag && !filters.country && !filters.language && !!index;
+  const hasNarrowing = Boolean(q) || Boolean(filters.tag) || Boolean(filters.country);
+  const canLocal = hasNarrowing && !filters.language && !!index;
+
+  const localList = useMemo(() => {
+    if (!canLocal || !index) return null;
+    let list = q ? searchLocal(index, q) : index;
+    if (filters.tag) {
+      const tag = filters.tag.toLowerCase();
+      list = list.filter((s) => s.tags.some((t) => t.toLowerCase() === tag));
+    }
+    if (filters.country) list = list.filter((s) => s.countryCode === filters.country);
+    if (!q) {
+      const field = filters.order;
+      list = [...list];
+      if (field === "name") list.sort((a, b) => a.name.localeCompare(b.name));
+      else if (field === "votes") list.sort((a, b) => b.votes - a.votes);
+      else if (field === "bitrate") list.sort((a, b) => b.bitrate - a.bitrate);
+      else if (field === "clicktrend") list.sort((a, b) => b.clickTrend - a.clickTrend);
+      else list.sort((a, b) => b.clickCount - a.clickCount);
+    }
+    return list;
+  }, [canLocal, index, q, filters.tag, filters.country, filters.order]);
+
   const stations = useMemo(() => {
-    if (!localMode) return remote;
-    // While the directory query is still in flight its data belongs to the
-    // previous keystrokes — never mix it in. Local results carry the frame.
-    return mergeResults(searchLocal(index ?? [], q), isFetching ? undefined : remote);
-  }, [localMode, index, q, remote, isFetching]);
+    if (!canLocal || !localList) return remote;
+    if (isFetching) return localList; // instant approximation, no stale data
+    // Directory answered: it's authoritative; for text search keep the local
+    // ranking on top and let the directory fill in what the index missed.
+    return q ? mergeResults(localList, remote) : (remote ?? localList);
+  }, [canLocal, localList, remote, isFetching, q]);
 
   const setStations = useViewStore((s) => s.setStations);
   useEffect(() => setStations(stations ?? []), [stations, setStations]);
@@ -86,7 +110,7 @@ function BrowsePage() {
           Tuning the directory…
         </p>
       )}
-      {stations && stations.length === 0 && (!localMode || !isFetching) && (
+      {stations && stations.length === 0 && (!canLocal || !isFetching) && (
         <p className="px-6 py-10 text-[15px] text-faint sm:px-10">
           {q
             ? `Nothing for “${q}”. Try a station name, a genre, or a country.`
@@ -100,7 +124,7 @@ function BrowsePage() {
               {isDefaultBrowse ? "Top stations" : q ? `Results for “${q}”` : "Results"}
             </h2>
             <span className="shrink-0 font-mono text-xs tabular-nums text-faint">
-              {localMode
+              {canLocal
                 ? `${stations.length}${isFetching ? " +" : ""}`
                 : isFetching
                   ? "searching…"
