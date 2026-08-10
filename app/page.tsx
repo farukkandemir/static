@@ -1,10 +1,11 @@
 ﻿"use client";
 
-import { Suspense, useEffect } from "react";
+import { Suspense, useEffect, useMemo } from "react";
 import { Featured } from "@/components/featured";
 import { Filters } from "@/components/filters";
 import { StationList } from "@/components/station-list";
 import { usePlayerStore } from "@/lib/player-store";
+import { mergeResults, searchLocal, useSearchIndex } from "@/lib/use-search-index";
 import { type StationFilters, useStations } from "@/lib/use-stations";
 import { usePageParam, useUrlParams } from "@/lib/use-url-state";
 import { useViewStore } from "@/lib/view-store";
@@ -25,7 +26,22 @@ function BrowsePage() {
     order: (ORDERS.has(rawSort) ? rawSort : "clickcount") as StationFilters["order"],
   };
 
-  const { data: stations, isLoading, isError, isFetching } = useStations(filters);
+  const { data: remote, isLoading, isError, isFetching } = useStations(filters);
+  const { data: index } = useSearchIndex();
+
+  // Search-as-you-type: with a plain text query (no other filters), results
+  // come instantly from the local index; the directory search runs behind it
+  // and appends anything the index didn't know. With other filters active,
+  // combinations are the server's job.
+  const q = filters.q.trim();
+  const localMode = Boolean(q) && !filters.tag && !filters.country && !filters.language && !!index;
+  const stations = useMemo(() => {
+    if (!localMode) return remote;
+    // While the directory query is still in flight its data belongs to the
+    // previous keystrokes — never mix it in. Local results carry the frame.
+    return mergeResults(searchLocal(index ?? [], q), isFetching ? undefined : remote);
+  }, [localMode, index, q, remote, isFetching]);
+
   const setStations = useViewStore((s) => s.setStations);
   useEffect(() => setStations(stations ?? []), [stations, setStations]);
 
@@ -70,10 +86,10 @@ function BrowsePage() {
           Tuning the directory…
         </p>
       )}
-      {stations && stations.length === 0 && (
+      {stations && stations.length === 0 && (!localMode || !isFetching) && (
         <p className="px-6 py-10 text-[15px] text-faint sm:px-10">
-          {filters.q.trim()
-            ? `Nothing for “${filters.q.trim()}”. Try a station name, a genre, or a country.`
+          {q
+            ? `Nothing for “${q}”. Try a station name, a genre, or a country.`
             : "No stations match. Loosen a filter."}
         </p>
       )}
@@ -81,14 +97,14 @@ function BrowsePage() {
         <section aria-label="Stations" className="pt-7">
           <div className="mb-2 flex items-baseline justify-between gap-4 px-6 sm:px-13">
             <h2 className="min-w-0 truncate text-xs font-medium uppercase tracking-[0.18em] text-faint">
-              {isDefaultBrowse
-                ? "Top stations"
-                : filters.q.trim()
-                  ? `Results for “${filters.q.trim()}”`
-                  : "Results"}
+              {isDefaultBrowse ? "Top stations" : q ? `Results for “${q}”` : "Results"}
             </h2>
             <span className="shrink-0 font-mono text-xs tabular-nums text-faint">
-              {isFetching ? "searching…" : stations.length}
+              {localMode
+                ? `${stations.length}${isFetching ? " +" : ""}`
+                : isFetching
+                  ? "searching…"
+                  : stations.length}
             </span>
           </div>
           <StationList stations={stations} page={page} onPageChange={setPage} />

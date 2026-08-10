@@ -71,7 +71,9 @@
       "PowerShell(Remove-Item \"C:\\\\Users\\\\faruk\\\\Desktop\\\\static\\\\app\\\\favicon.ico\" -Confirm:$false)",
       "PowerShell($files = @\\(\"C:\\\\Users\\\\faruk\\\\Desktop\\\\static\\\\components\\\\focus-view.tsx\",\"C:\\\\Users\\\\faruk\\\\Desktop\\\\static\\\\app\\\\page.tsx\",\"C:\\\\Users\\\\faruk\\\\Desktop\\\\static\\\\app\\\\favourites\\\\page.tsx\",\"C:\\\\Users\\\\faruk\\\\Desktop\\\\static\\\\app\\\\recents\\\\page.tsx\"\\); foreach \\($f in $files\\) { \\(Get-Content $f -Raw\\) -replace 'px-9 sm:px-13', 'px-6 sm:px-13' | Set-Content $f -Encoding utf8 -NoNewline }; \"done\")",
       "PowerShell(npx tsc --noEmit; \"tsc: $LASTEXITCODE\"; npx biome check . 2>&1 | Select-Object -Last 2)",
-      "PowerShell($r = Invoke-RestMethod \"http://localhost:3000/api/stations?q=techno&limit=400\" -TimeoutSec 90; \"results for techno: $\\($r.Count\\)\"; $tagOnly = $r | Where-Object { $_.name -notmatch 'techno' } | Select-Object -First 5; \"tag-matched \\(name has no 'techno'\\):\"; $tagOnly | ForEach-Object { \"  $\\($_.name\\)  [$\\($_.tags -join ', '\\)]\" })"
+      "PowerShell($r = Invoke-RestMethod \"http://localhost:3000/api/stations?q=techno&limit=400\" -TimeoutSec 90; \"results for techno: $\\($r.Count\\)\"; $tagOnly = $r | Where-Object { $_.name -notmatch 'techno' } | Select-Object -First 5; \"tag-matched \\(name has no 'techno'\\):\"; $tagOnly | ForEach-Object { \"  $\\($_.name\\)  [$\\($_.tags -join ', '\\)]\" })",
+      "PowerShell(npx tsc --noEmit; \"tsc: $LASTEXITCODE\"; npx biome check --write . 2>&1 | Select-Object -Last 2; pnpm build 2>&1 | Select-Object -Last 4)",
+      "PowerShell($raw = Invoke-WebRequest \"http://localhost:3000/api/search-index\" -UseBasicParsing -TimeoutSec 90; \"payload now: $\\([math]::Round\\($raw.RawContentLength/1024\\)\\)KB raw\"; $gz = Invoke-WebRequest \"http://localhost:3000/api/search-index\" -UseBasicParsing -TimeoutSec 90 -Headers @{ \"Accept-Encoding\" = \"gzip\" }; \"with gzip header: $\\([math]::Round\\($gz.RawContentLength/1024\\)\\)KB\")"
     ]
   }
 }

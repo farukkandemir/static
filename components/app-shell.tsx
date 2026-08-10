@@ -9,6 +9,7 @@ import { PlayerBar } from "@/components/player-bar";
 import { ShortcutsHelp } from "@/components/shortcuts-help";
 import { useLibraryStore } from "@/lib/library-store";
 import { usePlayerStore } from "@/lib/player-store";
+import { useSearchIndex } from "@/lib/use-search-index";
 import { useShortcuts } from "@/lib/use-shortcuts";
 import { useViewStore } from "@/lib/view-store";
 
@@ -23,6 +24,9 @@ const TABS = [
 // Browse home with the query in the URL (debounced — the URL is the single
 // source of truth).
 function HeaderSearch() {
+  // Warm the local search index the moment the app loads, from any route —
+  // by the first keystroke it's already in memory.
+  useSearchIndex();
   const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
@@ -41,7 +45,9 @@ function HeaderSearch() {
       else params.delete("q");
       params.delete("page");
       router.replace(`/${params.size ? `?${params}` : ""}`);
-    }, 300);
+      // Fast cadence: local search consumes this instantly; the heavier
+      // directory query has its own 300ms debounce downstream.
+    }, 120);
     return () => clearTimeout(t);
   }, [value, urlQ, pathname, searchParams, router]);
 
