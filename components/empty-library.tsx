@@ -46,14 +46,14 @@ export function EmptyLibrary({ kind }: { kind: "favourites" | "recents" }) {
         )}
         <p className="mt-3">
           <Link
-            href="/browse"
+            href="/"
             className="text-ink underline decoration-edge underline-offset-4 transition-colors hover:decoration-faint"
           >
             Find something in Browse
           </Link>
           <span className="px-2 text-faint/50">·</span>
           <Link
-            href="/"
+            href="/focus"
             className="text-ink underline decoration-edge underline-offset-4 transition-colors hover:decoration-faint"
           >
             or start with Focus

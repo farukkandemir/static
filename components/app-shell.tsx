@@ -13,19 +13,20 @@ import { useShortcuts } from "@/lib/use-shortcuts";
 import { useViewStore } from "@/lib/view-store";
 
 const TABS = [
-  { href: "/browse", label: "Browse" },
-  { href: "/", label: "Focus" },
+  { href: "/", label: "Browse" },
+  { href: "/focus", label: "Focus" },
   { href: "/favourites", label: "Favourites" },
   { href: "/recents", label: "Recents" },
 ];
 
-// Search lives in the shell so `/` works everywhere; typing routes to /browse
-// with the query in the URL (debounced — the URL is the single source of truth).
+// Search lives in the shell so `/` works everywhere; typing routes to the
+// Browse home with the query in the URL (debounced — the URL is the single
+// source of truth).
 function HeaderSearch() {
   const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
-  const urlQ = pathname === "/browse" ? (searchParams.get("q") ?? "") : "";
+  const urlQ = pathname === "/" ? (searchParams.get("q") ?? "") : "";
   const [value, setValue] = useState(urlQ);
 
   // Adopt outside URL changes (back/forward, palette navigation).
@@ -35,11 +36,11 @@ function HeaderSearch() {
   useEffect(() => {
     const t = setTimeout(() => {
       if (value === urlQ) return;
-      const params = new URLSearchParams(pathname === "/browse" ? searchParams : undefined);
+      const params = new URLSearchParams(pathname === "/" ? searchParams : undefined);
       if (value.trim()) params.set("q", value.trim());
       else params.delete("q");
       params.delete("page");
-      router.replace(`/browse${params.size ? `?${params}` : ""}`);
+      router.replace(`/${params.size ? `?${params}` : ""}`);
     }, 300);
     return () => clearTimeout(t);
   }, [value, urlQ, pathname, searchParams, router]);
@@ -108,7 +109,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
     <div className="flex min-h-dvh flex-col">
       <header className="sticky top-0 z-30 bg-bg/90 backdrop-blur-xl">
         <div className="mx-auto flex h-16 max-w-screen-2xl items-center gap-5 border-b border-edge/60 px-6 sm:px-10">
-          <Link href="/browse" className="text-xl font-semibold tracking-tight">
+          <Link href="/" className="text-xl font-semibold tracking-tight">
             static<span className="text-accent">.</span>
           </Link>
           <nav aria-label="Views" className="flex gap-1">

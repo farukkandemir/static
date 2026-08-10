@@ -41,7 +41,20 @@
       "PowerShell(npx tsc --noEmit; \"tsc: $LASTEXITCODE\"; npx biome check --write . 2>&1 | Select-Object -Last 3; pnpm build 2>&1 | Select-Object -Last 4)",
       "PowerShell(pnpm remove motion; npx tsc --noEmit; \"tsc: $LASTEXITCODE\"; npx biome check --write . 2>&1 | Select-Object -Last 3; pnpm build 2>&1 | Select-Object -Last 4)",
       "PowerShell(npx tsc --noEmit; \"tsc: $LASTEXITCODE\"; npx biome check --write . 2>&1 | Select-Object -Last 3; pnpm build 2>&1 | Select-Object -Last 14)",
-      "PowerShell($html = \\(Invoke-WebRequest \"http://localhost:3000/\" -UseBasicParsing -TimeoutSec 30\\).Content; \"length: $\\($html.Length\\)\"; \"has Klassik: $\\($html.Contains\\('Klassik'\\)\\)\"; \"has SomaFM: $\\($html.Contains\\('SomaFM'\\)\\)\"; \"has loading text: $\\($html.Contains\\('Loading the catalog'\\)\\)\"; \"has Everything: $\\($html.Contains\\('Everything'\\)\\)\")"
+      "PowerShell($html = \\(Invoke-WebRequest \"http://localhost:3000/\" -UseBasicParsing -TimeoutSec 30\\).Content; \"length: $\\($html.Length\\)\"; \"has Klassik: $\\($html.Contains\\('Klassik'\\)\\)\"; \"has SomaFM: $\\($html.Contains\\('SomaFM'\\)\\)\"; \"has loading text: $\\($html.Contains\\('Loading the catalog'\\)\\)\"; \"has Everything: $\\($html.Contains\\('Everything'\\)\\)\")",
+      "PowerShell(gh auth status 2>&1)",
+      "PowerShell(gh repo list --limit 10 2>&1)",
+      "PowerShell(try { $r = Invoke-RestMethod \"https://api.github.com/users/farukkandemir/repos?per_page=100&sort=updated\" -TimeoutSec 30; $r | Select-Object -First 15 name, private, pushed_at, default_branch | Format-Table -AutoSize | Out-String } catch { \"ERR: $\\($_.Exception.Message\\)\" })",
+      "PowerShell(New-Item -ItemType Directory -Force \"C:\\\\Users\\\\faruk\\\\Desktop\\\\static\\\\app\\\\focus\")",
+      "PowerShell(Move-Item \"C:\\\\Users\\\\faruk\\\\Desktop\\\\static\\\\app\\\\page.tsx\" \"C:\\\\Users\\\\faruk\\\\Desktop\\\\static\\\\app\\\\focus\\\\page.tsx\" -Force)",
+      "PowerShell(Move-Item \"C:\\\\Users\\\\faruk\\\\Desktop\\\\static\\\\app\\\\browse\\\\page.tsx\" \"C:\\\\Users\\\\faruk\\\\Desktop\\\\static\\\\app\\\\page.tsx\" -Force)",
+      "PowerShell(Remove-Item \"C:\\\\Users\\\\faruk\\\\Desktop\\\\static\\\\app\\\\browse\" -Recurse -Force -Confirm:$false)",
+      "PowerShell(npx tsc --noEmit; \"tsc: $LASTEXITCODE\"; npx biome check --write . 2>&1 | Select-Object -Last 2; pnpm build 2>&1 | Select-Object -Last 12)",
+      "PowerShell(npx tsc --noEmit; \"tsc: $LASTEXITCODE\")",
+      "PowerShell($root = \\(Invoke-WebRequest \"http://localhost:3000/\" -UseBasicParsing -TimeoutSec 60\\).Content; \"root has filters: $\\($root.Contains\\('All genres'\\)\\)\"; \"root has Popular: $\\($root.Contains\\('Popular this week'\\)\\)\"; $f = \\(Invoke-WebRequest \"http://localhost:3000/focus\" -UseBasicParsing -TimeoutSec 60\\).Content; \"focus has catalog: $\\($f.Contains\\('SomaFM'\\)\\)\"; try { $b = Invoke-WebRequest \"http://localhost:3000/browse\" -UseBasicParsing -TimeoutSec 60 -MaximumRedirection 0 } catch { \"browse redirect status: $\\($_.Exception.Response.StatusCode.value__\\) -> $\\($_.Exception.Response.Headers['Location']\\)\" })",
+      "Bash(curl -s -o /dev/null -w \"%{http_code} -> %{redirect_url}\\\\n\" http://localhost:3000/browse)",
+      "Bash(curl -s -o /dev/null -w \"root: %{http_code}\\\\n\" http://localhost:3000/)",
+      "Bash(curl -s -o /dev/null -w \"focus: %{http_code}\\\\n\" http://localhost:3000/focus)"
     ]
   }
 }
