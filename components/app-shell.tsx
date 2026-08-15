@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
-import { Suspense, useCallback, useEffect, useState } from "react";
+import { Suspense, useCallback, useEffect, useRef, useState } from "react";
 import { CommandPalette } from "@/components/command-palette";
 // import { LibraryMenu } from "@/components/library-menu";
 import { PlayerBar } from "@/components/player-bar";
@@ -32,24 +32,33 @@ function HeaderSearch() {
   const searchParams = useSearchParams();
   const urlQ = pathname === "/" ? (searchParams.get("q") ?? "") : "";
   const [value, setValue] = useState(urlQ);
+  const inputRef = useRef<HTMLInputElement>(null);
+  // The last query THIS box pushed into the URL. URL changes matching it are
+  // our own echo and must never touch the input — that echo arriving late is
+  // what was eating letters mid-typing.
+  const lastSent = useRef(urlQ);
 
-  // Adopt outside URL changes (back/forward, palette navigation).
-  // biome-ignore lint/correctness/useExhaustiveDependencies: urlQ is the sync signal
-  useEffect(() => setValue(urlQ), [urlQ]);
+  useEffect(() => {
+    if (urlQ === lastSent.current) return; // our own write coming back
+    lastSent.current = urlQ;
+    // External change (back/forward, a link): adopt it — but never while the
+    // user is actively typing in the box.
+    if (document.activeElement !== inputRef.current) setValue(urlQ);
+  }, [urlQ]);
 
   useEffect(() => {
     const t = setTimeout(() => {
-      if (value === urlQ) return;
+      const next = value.trim();
+      if (next === lastSent.current) return;
       const params = new URLSearchParams(pathname === "/" ? searchParams : undefined);
-      if (value.trim()) params.set("q", value.trim());
+      if (next) params.set("q", next);
       else params.delete("q");
       params.delete("page");
+      lastSent.current = next;
       router.replace(`/${params.size ? `?${params}` : ""}`);
-      // Fast cadence: local search consumes this instantly; the heavier
-      // directory query has its own 300ms debounce downstream.
-    }, 120);
+    }, 250);
     return () => clearTimeout(t);
-  }, [value, urlQ, pathname, searchParams, router]);
+  }, [value, pathname, searchParams, router]);
 
   return (
     <div className="relative">
@@ -64,6 +73,7 @@ function HeaderSearch() {
         <path d="m9 9 3 3" stroke="currentColor" strokeWidth="1.5" />
       </svg>
       <input
+        ref={inputRef}
         id="station-search"
         type="search"
         placeholder="Search stations or genres"
